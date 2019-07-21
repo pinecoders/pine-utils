@@ -16,7 +16,7 @@ The Pine compiler is not very fussy on exact positioning of specific statements 
 
 The first line of a script should be the `//@version=` compiler directive. While the compiler defaults to Pine version 1 when no directive is used, scripts written with version 1 of Pine should nonetheless contain the `//@version=1` on their first line.
 
-This first line may be followed by comments describing the script.
+Comments describing the script are usually place immediately after the `@version` compiler directive.
 
 The first line of Pine code should be either the `study()` or `strategy()` declaration statement.
 
