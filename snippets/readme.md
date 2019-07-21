@@ -2,7 +2,7 @@
 
 ## Code Snippets for Tradingview Pine Script language:
 
-<details>
+<details open>
   <!-- leave a blank line after summary -->
   <summary>Category A</summary>
   
