@@ -1,17 +1,46 @@
-<h1><b>Snippets.</b></h1>
+# Snippets.
 
-<h3>Code Snippets for Tradingview Pine Script language:</h3>
+## Code Snippets for Tradingview Pine Script language:
 
-<p>.</p>
-<p>.</p>
-<dl>
-	<dt>category A:(on click load expand category..)</dt>
-    <dd>snippet A1:(on click load div with external file..)</dd>  
-    <dd>snippet A2:(on click load div with external file..)</dd>  
-    <dd>snippet A3:(on click load div with external file..)</dd>  
-    <dd>snippet A:(on click load div with external file..)</dd>  
-  <dt>category B:(on click load expand category..)</dt>
-	  <dd>snippet B1:(on click load div with external file..)</dd>
-	  <dd>snippet B2:(on click load div with external file..)</dd>
-	  <dd>snippet B3:(on click load div with external file..)</dd>
-</dl>
+<details>
+  <!-- leave a blank line after summary -->
+  <summary>Category A</summary>
+  
+  #### Category A Snippets
+  Perhaps a description is usefull..
+  1. Snippet A1
+  2. Snippet A2 family:
+     * Snippet A2.1
+     * Snippet A2.2
+  3. Snippet A3
+</details>
+
+<details>
+  <!-- leave a blank line after summary -->
+  <summary>Category B</summary>
+  
+  #### Category B Snippets
+  Perhaps a description is usefull..
+  
+  ***
+  
+<details>
+  <!-- leave a blank line after summary -->
+  <summary>Sub Category BA1</summary>
+  
+  1. Snippet SB1
+  2. Snippet SB2 family:
+     * Snippet SB2.1
+     * Snippet SB2.2
+  3. Snippet SB3
+</details>
+  
+  ***
+  
+  1. Snippet B1
+  2. Snippet B2
+  3. Snippet B3 family:
+     * Snippet B3.1
+     * Snippet B3.2
+  4. Snippet B3
+</details>
