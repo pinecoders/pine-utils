@@ -46,6 +46,6 @@ daysInMonth( _year, _month) =>
 
 ### Local Scope Variable Names
 
-[TODO-Luc] Need something here, imo, to prevent inadvertent confusion with global scope vars. 
+[TODO-Luc](#) Need something here, imo, to prevent inadvertent confusion with global scope vars. 
 
 **[Back to top](#table-of-contents)**
