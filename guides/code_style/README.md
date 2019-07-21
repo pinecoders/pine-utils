@@ -11,7 +11,7 @@ Please feel free to suggest any improvements you see fit.
 ### Table of Contents
 1. [TODO](#)
 
-### Script Structure
+## Script Structure
 
 The Pine compiler is not very strict on exact positioning of specific statements or compiler directives. These guidelines aim to provide a standard way of ordering elements in scripts, but many other ways are syntactically correct.
 
@@ -31,20 +31,20 @@ The Pine compiler is not very strict on exact positioning of specific statements
 1. `strategy.*()` calls (for strategies), and
 1. `alertcondition()` calls (for indicators)
 
-### Naming Conventions
+## Naming Conventions
 
-## Variable and function names
+### Variable and function names
 
 CamelCase is recommmended. Example: `emaLength`, `obLevel`, `showSignal2`.
 
-## Function Parameter Names
+### Function Parameter Names
 
 Function parameters should be prefixed with the underscore in order to diffentiate them from global and local scope variables. Example:
 ```
 daysInMonth( _year, _month) =>
 ```
 
-## Local Scope Variable Names
+### Local Scope Variable Names
 
 Variables 
 
