@@ -38,7 +38,7 @@ code
 ```
 ## Naming Conventions
 
-### Variable and function names
+### Variable and Function Names
 
 CamelCase is recommmended. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
 
