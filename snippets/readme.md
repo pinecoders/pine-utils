@@ -2,6 +2,17 @@
 
 ## Code Snippets for Tradingview Pine Script language:
 
+
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary>Algorithms:</summary>
+  
+  #### Algorithms:
+  Multiple use algorithms:
+  * [Nth Fibonacci](https://github.com/ricardosantos79/pine-utils/blob/master/snippets/cat_algorithm/nth_fibonacci.md#function-to-find-nth-fibonacci)
+  * [other](lala)
+</details>
+
 <details open>
   <!-- leave a blank line after summary -->
   <summary>Category A</summary>
