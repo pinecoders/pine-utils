@@ -1,3 +1,3 @@
-<b>Snippets.</b>
+<h1><b>Snippets.</b></h1>
 
-Code Snippets for Tradingview pinescript language:
+<h3>Code Snippets for Tradingview pinescript language:</h3>
