@@ -35,7 +35,7 @@ The Pine compiler is not very strict on exact positioning of specific statements
 
 ### Variable and function names
 
-CamelCase is recommmended. Example: `emaLength`, `obLevel`, `showSignal2`.
+CamelCase is recommmended. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
 
 ### Function Parameter Names
 
