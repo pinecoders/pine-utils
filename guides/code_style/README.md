@@ -29,7 +29,7 @@ The Pine compiler is not very strict on exact positioning of specific statements
 
 1. `plot` calls,
 1. `strategy.*()` calls (for strategies), and
-1. `alertcondition()` calls (for indicators)
+1. `alertcondition()` calls (for indicators).
 
 Here is an example of a complete script:
 
