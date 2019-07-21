@@ -16,19 +16,19 @@ The Pine compiler is not very fussy on exact positioning of specific statements 
 
 1. The first line of a script should be the `//@version=` compiler directive. While the compiler defaults to Pine version 1 when no directive is used, scripts written with version 1 of Pine should nonetheless contain the `//@version=1` on their first line.
 
-1. Comments describing the script are usually place immediately after the `@version` compiler directive.
+1. **Comments** describing the script are usually place immediately after the `@version` compiler directive.
 
 1. The first line of Pine code should be either the `study()` or `strategy()` declaration statement.
 
-The next lines should contain the scripts inputs.
+1. The next lines should contain the scripts **inputs**.
 
-The following can contain variable declarations and functions in any order required. Note that all Pine functions are declared in the script's global scope, as nested function definitions are not allowed. Concerning variable declarations, some scripts lend themselves to mass declarations and others will be more readable with a *declare as you need* style that distributes declarations with the code where they are used. It's up to each coder to adopt the most useful style.
+1. The following can contain **variable declarations** and **functions** in any order required. Note that all Pine functions are declared in the script's global scope, as nested function definitions are not allowed. Concerning variable declarations, some scripts lend themselves to mass declarations and others will be more readable with a *declare as you need* style that distributes declarations with the code where they are used. It's up to each coder to adopt the most useful style.
 
-The rest of the script will contain calculations, which will typically be followed by:
+1. The rest of the script will contain **calculations**, followed by,
 
-- plot calls,
-- `strategy.*()` calls (for strategies),
-- `alertcondition()` calls (for indicators)
+1. plot calls,
+1. `strategy.*()` calls (for strategies), and
+1. `alertcondition()` calls (for indicators)
 
 
 **[Back to top](#table-of-contents)**
