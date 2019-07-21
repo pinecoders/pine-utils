@@ -22,7 +22,7 @@ The first line of Pine code should be either the `study()` or `strategy()` decla
 
 The next lines should contain the scripts inputs.
 
-The following can contain variable declarations and functions. Note that all Pine function are declared in the script's global scope. Nested function definitions are not allowed.
+The following can contain variable declarations and functions. Note that all Pine functions are declared in the script's global scope. Nested function definitions are not allowed.
 
 The rest of the script will contain calculations, which will typically be followed by:
 
