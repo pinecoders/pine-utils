@@ -31,5 +31,21 @@ The Pine compiler is not very strict on exact positioning of specific statements
 1. `strategy.*()` calls (for strategies), and
 1. `alertcondition()` calls (for indicators)
 
+###Naming Conventions
+
+##Variable and function names
+
+CamelCase is recommmended. Example: `emaLength`, `obLevel`, `showSignal2`.
+
+##Function Parameter Names
+
+Function parameters should be prefixed with the underscore in order to diffentiate them from global and local scope variables. Example:
+```
+daysInMonth( _year, _month) =>
+```
+
+##Local Scope Variable Names
+
+Variables 
 
 **[Back to top](#table-of-contents)**
