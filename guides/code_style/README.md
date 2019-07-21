@@ -3,7 +3,6 @@
 ### Introduction
 
 The goal of this style guide is to present a set of best practices and style guidelines for Pine Script.
-
 Please feel free to suggest any improvements you see fit.
 
 ### Translations
