@@ -1,2 +1,2 @@
 # pine-utils
-A set of utility functions and language constructs for Pine Script developers
+A set of reusable code snippets, tricks & tips and guides to help Pine Script developers.
