@@ -21,7 +21,7 @@ The Pine compiler is not very strict on exact positioning of specific statements
 
 1. The first line of Pine code should be either the `study()` or `strategy()` declaration statement.
 
-1. The next lines should contain the scripts **inputs**.
+1. The next lines should contain the script's **inputs**.
 
 1. The following can contain **variable declarations** and **functions** in any order required. Note that all Pine functions are declared in the script's global scope, as nested function definitions are not allowed. Concerning variable declarations, some scripts lend themselves to mass declarations and others will be more readable with a *declare as you need* style that distributes declarations with the code where they are used. It's up to each coder to adopt the most useful style.
 
