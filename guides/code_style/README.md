@@ -1,12 +1,11 @@
 
 ![logo](../../pinelong.png "Pine")
 
-# Pine Script Code Style Guide
+# Pine Script Coding Conventions
 
 ## Introduction
 
-The goal of this style guide is to present a set of best practices and style guidelines for Pine Script.
-Please feel free to suggest any improvements you see fit.
+The goal of these Coding Conventions is to present a set of best practices and style guidelines for Pine Script.
 
 ### Translations
 1. [TODO](#)
