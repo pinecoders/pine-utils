@@ -81,7 +81,7 @@ plot(series=manual_example, title='example', color=color.red)
 
 ```
 
-### Code Author: Ricardo Santos
+##### Code Author: [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/ "@Tradingview.")
 
-_[Disclaimer](link "description").<br/>_
-_[license](link "description")._
+_[Disclaimer](https://github.com/pinecoders/pine-utils/blob/master/DISCLAIMER.md "Disclaimer.").<br/>_
+_[license](https://github.com/pinecoders/pine-utils/blob/master/LICENSE "License.")._
