@@ -55,6 +55,11 @@ daysInMonth( _year, _month) =>
 
 Need something here, imo, to prevent inadvertent confusion with global scope vars. 
 
+## Line Wrapping
+
+When lines need to be continued on the next, use two spaces to indent the continuation line.
+
+
 **[Back to top](#table-of-contents)**
 
 # TODO
