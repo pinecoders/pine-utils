@@ -86,7 +86,12 @@ plot(series=manual_example, title='example', color=color.red)
 ```
 </details>
 
-##### Code Author: [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/ "@Tradingview.")
+##### Code Author(s):
+  * ##### [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/ "@Tradingview.") 
+
+<br/>
+<br/>
+<br/>
 
 [Disclaimer](/./DISCLAIMER.md "Disclaimer.")<br/>
 [License](/./LICENSE "License.")
