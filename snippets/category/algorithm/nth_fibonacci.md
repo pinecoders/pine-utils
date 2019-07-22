@@ -83,5 +83,5 @@ plot(series=manual_example, title='example', color=color.red)
 
 ### Code Author: Ricardo Santos
 
-Disclaimer
-license
+-Disclaimer:-<br/>
+-license:-
