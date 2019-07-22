@@ -9,7 +9,7 @@ needs a small description here...
   
   #### Algorithms:
   Multiple use algorithms:  
-  * [Nth Fibonacci](https://github.com/ricardosantos79/pine-utils/blob/master/snippets/cat_algorithm/nth_fibonacci.md#function-to-find-nth-fibonacci)
+  * [Nth Fibonacci](https://github.com/ricardosantos79/pine-utils/blob/master/snippets/category/algorithm/nth_fibonacci.md#function-to-find-nth-fibonacci)
 </details>
 
 <details open>
