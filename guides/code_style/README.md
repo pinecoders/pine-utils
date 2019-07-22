@@ -53,7 +53,9 @@ daysInMonth( _year, _month) =>
 
 ### Local Scope Variable Names
 
-> ————————— Do we need something here, to prevent inadvertent confusion with global scope vars? ————————
+———————— 
+————————
+Do we need something here, to prevent inadvertent confusion with global scope vars? 
 
 ## Line Wrapping
 
