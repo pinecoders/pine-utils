@@ -55,7 +55,7 @@ Need something here, imo, to prevent inadvertent confusion with global scope var
 
 **[Back to top](#table-of-contents)**
 
-- [x] Code example in Structure
+- [ ] Code example in Structure
 - [x] Decision on local block (for functions only?) var naming convention.
 
 
