@@ -25,7 +25,7 @@ needs a small description here...
   3. Snippet A3
 </details>
 
-<details>
+<details open>
   <!-- leave a blank line after summary -->
   <summary>Category B</summary>
   
@@ -34,7 +34,7 @@ needs a small description here...
   
   ***
   
-<details>
+<details open>
   <!-- leave a blank line after summary -->
   <summary>Sub Category BA1</summary>
   
