@@ -9,18 +9,11 @@ References:
 
 
 #### Code:
-<!--  -->
-<!-- code goes between the backticks: -->
-```javascript
-//-----------------
-//  Binet's Formula to solve the Nth Fibonacci Number
-//  pine version=2
-f_n_fib(_step) =>
-    _phi = 1.618
-    _n_phi = 1/_phi
-    _return = round(_step >= 0 ? pow(_phi, _step) / sqrt(5) : pow(-_n_phi, _step) / sqrt(5))
-//-----------------
-```
+
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary>pine version=4</summary>
+
 ```
 //-----------------
 //  Binet's Formula to solve the Nth Fibonacci Number
@@ -32,6 +25,25 @@ f_n_fib(_step) =>
     _return
 //-----------------
 ```
+</details>
+
+<details close>
+  <!-- leave a blank line after summary -->
+  <summary>pine version=2</summary>
+
+<!--  -->
+<!-- code goes between the backticks: -->
+```javascript
+//-----------------
+//  Binet's Formula to solve the Nth Fibonacci Number
+//  pine version=2
+f_n_fib(_step) =>
+		_phi = 1.618
+		_n_phi = 1/_phi
+		_return = round(_step >= 0 ? pow(_phi, _step) / sqrt(5) : pow(-_n_phi, _step) / sqrt(5))
+//-----------------
+```  
+</details>
 
 #### Example:
 
@@ -69,3 +81,4 @@ plot(series=manual_example, title='example', color=color.red)
 
 ```
 
+### Code Author: Ricardo Santos
