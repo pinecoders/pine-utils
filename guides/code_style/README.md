@@ -1,9 +1,11 @@
-# Pine Script Code Style Guide
+
+![logo](../../pinelong.png "Pine")
+
+# Pine Script Coding Conventions
 
 ## Introduction
 
-The goal of this style guide is to present a set of best practices and style guidelines for Pine Script.
-Please feel free to suggest any improvements you see fit.
+The goal of these Coding Conventions is to present a set of best practices and style guidelines for Pine Script. By making Pine scripts easier to read, these guidelines make open source code more readable, while also providing safeguards that minimize the risk of errors for developers.
 
 ### Translations
 1. [TODO](#)
@@ -23,7 +25,7 @@ The Pine compiler is not very strict on exact positioning of specific statements
 
 1. The next lines should contain the script's **inputs**.
 
-1. The following can contain **variable declarations** and **functions** in any order required. Note that all Pine functions are declared in the script's global scope, as nested function definitions are not allowed. Concerning variable declarations, some scripts lend themselves to mass declarations and others will be more readable with a *declare as you need* style that distributes declarations with the code where they are used. It's up to each coder to adopt the most useful style.
+1. The following can contain **variable declarations** and **functions** in any order required. Note that all Pine functions are declared in the script's global scope, as nested function definitions are not allowed. Concerning variable declarations, some scripts lend themselves to mass declarations and others will be more readable with a *declare as you need* style that distributes declarations with the code where they are used. It's up to each coder to adopt the most useful style. In any case, declare variables that will only be used in a local block in that same local block.
 
 1. The rest of the script will contain **calculations**, followed by,
 
@@ -51,6 +53,18 @@ daysInMonth( _year, _month) =>
 
 ### Local Scope Variable Names
 
-[TODO-Luc](#) Need something here, imo, to prevent inadvertent confusion with global scope vars. 
+> Do we need something here, to prevent inadvertent confusion with global scope vars?
+
+## Line Wrapping
+
+When lines need to be continued on the next, use two spaces to indent the continuation line.
+
 
 **[Back to top](#table-of-contents)**
+
+# TODO
+
+- [ ] Code example in Structure
+- [ ] Decision on local block (for functions only?) var naming convention.
+
+
