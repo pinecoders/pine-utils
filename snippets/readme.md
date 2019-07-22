@@ -9,7 +9,7 @@ needs a small description here...
   
   #### Algorithms:
   Multiple use algorithms:  
-  * [Nth Fibonacci](https://github.com/ricardosantos79/pine-utils/blob/master/snippets/cat_algorithm/nth_fibonacci.md#function-to-find-nth-fibonacci)
+  * [Nth Fibonacci](/./snippets/category/algorithm/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
 
 <details open>
@@ -25,7 +25,7 @@ needs a small description here...
   3. Snippet A3
 </details>
 
-<details>
+<details open>
   <!-- leave a blank line after summary -->
   <summary>Category B</summary>
   
@@ -34,7 +34,7 @@ needs a small description here...
   
   ***
   
-<details>
+<details open>
   <!-- leave a blank line after summary -->
   <summary>Sub Category BA1</summary>
   
