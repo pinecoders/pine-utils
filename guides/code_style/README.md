@@ -1,5 +1,7 @@
 
-![logo](../../pine.png "Pine")
+[logo]: ../../pine.png "Pine"
+
+\![logo](../../pine.png "Pine")
 
 # Pine Script Code Style Guide
 
