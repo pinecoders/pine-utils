@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The goal of these Coding Conventions is to present a set of best practices and style guidelines for Pine Script.
+The goal of these Coding Conventions is to present a set of best practices and style guidelines for Pine Script. By promoting a standard way to code in Pine, these guidelines optimize code for the reader, rather than the writer of open source code.
 
 ### Translations
 1. [TODO](#)
