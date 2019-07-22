@@ -72,7 +72,12 @@ plot(series=example, title='example', color=color.red)
 ```
 </details>
 
-##### Code Author: [Author](http:\\linkifavaiable "@tooltip.")
+##### Code Author(s):
+  * ##### [Author](http:\\linkifavaiable "@tooltip.")
+
+<br/>
+<br/>
+<br/>
 
 [Disclaimer](/./DISCLAIMER.md "Disclaimer.")<br/>
 [License](/./LICENSE "License.")
