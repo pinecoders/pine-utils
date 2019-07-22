@@ -24,7 +24,10 @@ f_n_fib(_step) =>
 
 #### Example:
 
-in the next code it uses the function to do something with it.....
+
+Find the input index value in the fibonacci sequence, <br/>
+00 01 02 03 04 05 06 07 08 09 \[10] 11 ... <br/>
+00 01 01 02 03 05 08 13 21 34 \[55] 89 ...
 
 <!--  -->
 <!-- code goes between the backticks: -->
@@ -40,6 +43,8 @@ f_n_fib(_step) =>
     _return = round(_step >= 0 ? pow(_phi, _step) / sqrt(5) : pow(-_n_phi, _step) / sqrt(5))
 //-----------------
 
-plot(close)
+int index = input(10)
+int nth = f_n_fib(index)
+plot(nth)
 ```
 
