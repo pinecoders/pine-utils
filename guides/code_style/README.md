@@ -51,6 +51,11 @@ daysInMonth( _year, _month) =>
 
 ### Local Scope Variable Names
 
-[x] Need something here, imo, to prevent inadvertent confusion with global scope vars. 
+Need something here, imo, to prevent inadvertent confusion with global scope vars. 
 
 **[Back to top](#table-of-contents)**
+
+- [x] Code example in Structure
+- [x] Decision on local block (for functions only?) var naming convention.
+
+
