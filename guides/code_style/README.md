@@ -1,7 +1,7 @@
 
-# Pine Script Code Style Guide
-
 ![logo](../../pine.png "Pine")
+
+# Pine Script Code Style Guide
 
 ## Introduction
 
