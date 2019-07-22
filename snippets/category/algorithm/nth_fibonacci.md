@@ -14,7 +14,7 @@ Function to find the sequence value of the Nth fibonacci number.
   <!-- leave a blank line after summary -->
   <summary>pine version=4</summary>
 
-```
+```javascript
 //-----------------
 //  Binet's Formula to solve the Nth Fibonacci Number
 //  pine version=4
