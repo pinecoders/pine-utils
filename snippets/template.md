@@ -74,5 +74,5 @@ plot(series=example, title='example', color=color.red)
 
 ##### Code Author: [Author](http:\\linkifavaiable "@tooltip.")
 
-[Disclaimer](https://github.com/pinecoders/pine-utils/blob/master/DISCLAIMER.md "Disclaimer.")<br/>
-[License](https://github.com/pinecoders/pine-utils/blob/master/LICENSE "License.")
+[Disclaimer](/./DISCLAIMER.md "Disclaimer.")<br/>
+[License](/./LICENSE "License.")
