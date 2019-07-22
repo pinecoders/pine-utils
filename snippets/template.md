@@ -4,7 +4,7 @@
 
 Description of the template snippet name snippet.
 
-References:
+##### References:
 * [link1](http:\\alinktonowhere.come "descriptionoflinktonowhere.")
 
 
@@ -12,7 +12,7 @@ References:
 
 <details open>
   <!-- leave a blank line after summary -->
-  <summary>pine version=4</summary>
+  <summary>pine version = 4:</summary>
 
 ```
 //-----------------
@@ -27,7 +27,7 @@ f_phi() =>
 
 <details close>
   <!-- leave a blank line after summary -->
-  <summary>pine version=2</summary>
+  <summary>pine version = 2:</summary>
 
 <!--  -->
 <!-- code goes between the backticks: -->
@@ -45,9 +45,13 @@ f_phi() =>
 #### Example:
 
 
-Description of the example.... <br/>
-use the phi function and multiply by 2 <br/>
+Description of the example, <br/>
+use the phi function and multiply by 2, <br/>
 this is more text....
+
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary>Example Code:</summary>
 
 <!--  -->
 <!-- code goes between the backticks: -->
@@ -66,8 +70,9 @@ example = f_phi() * 2
 plot(series=example, title='example', color=color.red)
 
 ```
+</details>
 
 ##### Code Author: [Author](http:\\linkifavaiable "@tooltip.")
 
-[Disclaimer](https://github.com/pinecoders/pine-utils/blob/master/DISCLAIMER.md "Disclaimer.").<br/>
-[License](https://github.com/pinecoders/pine-utils/blob/master/LICENSE "License.").
+[Disclaimer](https://github.com/pinecoders/pine-utils/blob/master/DISCLAIMER.md "Disclaimer.")<br/>
+[License](https://github.com/pinecoders/pine-utils/blob/master/LICENSE "License.")
