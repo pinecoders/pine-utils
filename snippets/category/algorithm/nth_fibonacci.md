@@ -1,10 +1,10 @@
 # Function to find Nth fibonacci
 
-#### Snippet Description:
+#### Description:
 
 Function to find the sequence value of the Nth fibonacci number.
 
-references:
+References:
 * [link1](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/ "Multiple Methods:")
 
 
