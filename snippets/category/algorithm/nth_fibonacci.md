@@ -4,7 +4,7 @@
 
 Function to find the sequence value of the Nth fibonacci number.
 
-References:
+##### References:
 * [link1](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/ "Multiple Methods:")
 
 
@@ -52,6 +52,10 @@ Find the input index value in the fibonacci sequence, <br/>
 00 01 02 03 04 05 06 07 08 09 \[10] 11 ... <br/>
 00 01 01 02 03 05 08 13 21 34 \[55] 89 ...
 
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary>Example Code</summary>
+
 <!--  -->
 <!-- code goes between the backticks: -->
 ```javascript
@@ -80,8 +84,9 @@ plot(series=bar_index, title='Time', color=color.blue)
 plot(series=manual_example, title='example', color=color.red)
 
 ```
+</details>
 
 ##### Code Author: [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/ "@Tradingview.")
 
-[Disclaimer](https://github.com/pinecoders/pine-utils/blob/master/DISCLAIMER.md "Disclaimer.").<br/>
-[License](https://github.com/pinecoders/pine-utils/blob/master/LICENSE "License.").
+[Disclaimer](https://github.com/pinecoders/pine-utils/blob/master/DISCLAIMER.md "Disclaimer.")<br/>
+[License](https://github.com/pinecoders/pine-utils/blob/master/LICENSE "License.")
