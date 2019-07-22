@@ -1,3 +1,6 @@
+Inline-style: 
+![alt text](.../.../pine.png "Pine")
+
 # Pine Script Code Style Guide
 
 ## Introduction
