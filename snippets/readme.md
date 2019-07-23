@@ -1,3 +1,4 @@
+<!-- if you need to give space before text to format tabulation use keys &ensp; &emsp; combination-->
 # Snippets.
 
 ## Code Snippets for Tradingview Pine Script language:
@@ -5,11 +6,11 @@ Snippets categorized by its purpose.
 
 <details open>
   <!-- leave a blank line after summary -->
-  <summary>Miscellaneous:</summary>
+  <summary><b>Miscellaneous:</b></summary>
   
-  #### Miscellaneous:
-  Multiple use algorithms:  
-  * [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
+  <!--#### &emsp; Miscellaneous:-->
+  &emsp; Multiple use algorithms:  
+ &emsp;&emsp; • [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
 
 
