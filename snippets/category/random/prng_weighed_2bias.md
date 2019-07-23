@@ -1,4 +1,4 @@
-# Function to generate random values within range
+# Function to generate random values with bias towards a range within a range
 
 #### Description:
 
