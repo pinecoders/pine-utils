@@ -10,7 +10,10 @@ Snippets categorized by its purpose.
   
   <!--#### &emsp; Miscellaneous:-->
   &emsp; Random related snippets:  
- &emsp;&emsp; • [Random value in range - Function](/./snippets/category/random/pseudo_random_generation_range.md#function-to-generate-random-values-within-range "generate a value within range 0 to parameter.")
+&emsp;&emsp; • [Value in a range - Function](/./snippets/category/random/prng_range.md "generate a value within range 0 to parameter.")<br/>
+&emsp;&emsp; • [Value using Box Muller - Function](/./snippets/category/random/prng_Box_Muller.md "generate a value with bias towards a normal distribution.")<br/>
+&emsp;&emsp; • [Value with bias towards a level - Function](/./snippets/category/random/prng_weighed_bias.md "generate a value with bias towards a level.")<br/>
+&emsp;&emsp; • [Value with bias towards a range - Function](/./snippets/category/random/prng_weighed_2bias.md "generate a value with bias towards a range within a range.")<br/>
 </details>
 
 <details open>
@@ -23,10 +26,16 @@ Snippets categorized by its purpose.
 </details>
 
 
-
-<details open>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<details close>
   <!-- leave a blank line after summary -->
-  <summary>Category A</summary>
+  <summary>Template</summary>
   
   #### Category A Snippets
   Perhaps a description is usefull..
@@ -35,7 +44,6 @@ Snippets categorized by its purpose.
      * Snippet A2.1
      * Snippet A2.2
   3. Snippet A3
-</details>
 
 <details open>
   <!-- leave a blank line after summary -->
@@ -65,4 +73,6 @@ Snippets categorized by its purpose.
      * Snippet B3.1
      * Snippet B3.2
   4. Snippet B3
+</details>
+
 </details>
