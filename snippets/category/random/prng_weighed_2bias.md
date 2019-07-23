@@ -17,6 +17,21 @@ The returned value will be a float value with bias towards a range within a rang
   <summary>@version=3</summary>
 
 ```javascript
+f_pseudo_random_number(_range, _seed)=>
+//  ||-------------------------------------------------------------------------||
+//  ||  Basic Pseudo Random Value generator                                    ||
+//  ||-------------------------------------------------------------------------||
+//  |{
+//  ||  Author: Ricardo Santos
+//  ||-------------------------------------------------------------------------||
+    _return = 1.0
+    if na(_seed)
+        _return := 3.14159 * nz(_return[1], 1) % n
+    else
+        _return := 3.14159 * nz(_return[1], 1) % (n + _seed)
+    _return := _return % (_range)
+//  }|--------------------------------------------------------------------<•
+f_weighted_dist_double_bias_prng(_min, _max, _center, _side, _distribution, _seed)=>
 //  ||-------------------------------------------------------------------------||
 //  ||  Weighted Distribution with centered bias                                 ||
 //  ||-------------------------------------------------------------------------||
@@ -26,7 +41,6 @@ The returned value will be a float value with bias towards a range within a rang
 //  ||   		The purpose is to generate a value where the generation trends towards
 //  ||		    the level value and side of the bias level(over/under bias level)
 //  ||-------------------------------------------------------------------------||
-f_weighted_dist_double_bias_prng(_min, _max, _center, _side, _distribution, _seed)=>
     _upper_range = _max - _center
     _lower_range = _center - _min
     _rng = f_pseudo_random_number(1.0, _seed)
@@ -56,6 +70,21 @@ Generate a random value with bias towards a range within a range. <br/>
 //@version=3
 study("Function - Pseudo Random Number Example")
 
+f_pseudo_random_number(_range, _seed)=>
+//  ||-------------------------------------------------------------------------||
+//  ||  Basic Pseudo Random Value generator                                    ||
+//  ||-------------------------------------------------------------------------||
+//  |{
+//  ||  Author: Ricardo Santos
+//  ||-------------------------------------------------------------------------||
+    _return = 1.0
+    if na(_seed)
+        _return := 3.14159 * nz(_return[1], 1) % n
+    else
+        _return := 3.14159 * nz(_return[1], 1) % (n + _seed)
+    _return := _return % (_range)
+//  }|--------------------------------------------------------------------<•
+f_weighted_dist_double_bias_prng(_min, _max, _center, _side, _distribution, _seed)=>
 //  ||-------------------------------------------------------------------------||
 //  ||  Weighted Distribution with centered bias                                 ||
 //  ||-------------------------------------------------------------------------||
@@ -65,7 +94,6 @@ study("Function - Pseudo Random Number Example")
 //  ||   		The purpose is to generate a value where the generation trends towards
 //  ||		    the level value and side of the bias level(over/under bias level)
 //  ||-------------------------------------------------------------------------||
-f_weighted_dist_double_bias_prng(_min, _max, _center, _side, _distribution, _seed)=>
     _upper_range = _max - _center
     _lower_range = _center - _min
     _rng = f_pseudo_random_number(1.0, _seed)
