@@ -1,16 +1,17 @@
 # Snippets.
 
 ## Code Snippets for Tradingview Pine Script language:
-needs a small description here...  
+Snippets categorized by its purpose.
 
 <details open>
   <!-- leave a blank line after summary -->
-  <summary>Algorithms:</summary>
+  <summary>Miscellaneous:</summary>
   
-  #### Algorithms:
+  #### Miscellaneous:
   Multiple use algorithms:  
-  * [Nth Fibonacci](/./snippets/category/algorithm/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
+  * [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
+
 
 <details open>
   <!-- leave a blank line after summary -->
