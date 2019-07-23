@@ -1,5 +1,5 @@
 
-![logo](../../pinelong.png "Pine")
+![logo](../../images/pinelong.png "Pine")
 
 # Pine Script Coding Conventions
 
@@ -8,10 +8,14 @@
 The goal of these Coding Conventions is to present a set of best practices and style guidelines for Pine Script. By making Pine scripts easier to read, these guidelines make open source code more readable, while also providing safeguards that minimize the risk of errors for developers.
 
 ### Translations
+
 1. [TODO](#)
 
 ### Table of Contents
-1. [TODO](#)
+
+1. [Script Structure](#script-structure)
+1. [Naming Conventions](#naming-conventions)
+1. [Line Wrapping](#line-wrapping)
 
 ## Script Structure
 
@@ -38,27 +42,31 @@ Here is an example of a complete script:
 ```
 code
 ```
+
+**[Back to top](#table-of-contents)**
+
 ## Naming Conventions
 
 ### Variable and Function Names
 
-CamelCase is recommmended. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
+CamelCase is recommended. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
 
 ### Function Parameter Names
 
-Function parameters should be prefixed with the underscore in order to diffentiate them from global and local scope variables. Example:
+Function parameters should be prefixed with the underscore in order to differentiate them from global and local scope variables. Example:
 ```
-daysInMonth( _year, _month) =>
+daysInMonth(_year, _month) =>
 ```
 
 ### Local Scope Variable Names
 
 > Do we need something here, to prevent inadvertent confusion with global scope vars?
 
+**[Back to top](#table-of-contents)**
+
 ## Line Wrapping
 
 When lines need to be continued on the next, use two spaces to indent the continuation line.
-
 
 **[Back to top](#table-of-contents)**
 
