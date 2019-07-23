@@ -5,6 +5,7 @@
 Function to generate random values.
 The returned value will be a uncapped float value, with bias towards a normal distribution.
 
+
 ##### References:
 * [link1](https://www.howtoexcel.org/statistics/normal-distribution/ "link1")
 * [link2](https://www.excelfunctions.net/excel-ln-function.html "link2")
@@ -18,6 +19,20 @@ The returned value will be a uncapped float value, with bias towards a normal di
   <summary>@version=3</summary>
 
 ```javascript
+f_pseudo_random_number(_range, _seed)=>
+//  ||-------------------------------------------------------------------------||
+//  ||  Basic Pseudo Random Value generator                                    ||
+//  ||-------------------------------------------------------------------------||
+//  |{
+//  ||  Author: Ricardo Santos
+//  ||-------------------------------------------------------------------------||
+    _return = 1.0
+    if na(_seed)
+        _return := 3.14159 * nz(_return[1], 1) % n
+    else
+        _return := 3.14159 * nz(_return[1], 1) % (n + _seed)
+    _return := _return % (_range)
+//  }|--------------------------------------------------------------------<•
 f_pseudo_random_bm(_mean, _dev, _seed)=>
 //  ||-------------------------------------------------------------------------||
 //  ||  Adaptation for Box Muller Method To Generate Random Normal Values      ||
@@ -58,6 +73,24 @@ Generate a random value with bias towards a normal distribution, the value gener
 //@version=3
 study("Function - Pseudo Random Number Example")
 
+f_pseudo_random_number(_range, _seed)=>
+//  ||-------------------------------------------------------------------------||
+//  ||  Basic Pseudo Random Value generator                                    ||
+//  ||-------------------------------------------------------------------------||
+//  |{
+//  ||  Author: Ricardo Santos
+//  ||  reference:
+//  ||      https://www.tradingcode.net/tradingview/colours/random-colours/
+//  ||      https://cdsmith.wordpress.com/2011/10/10/build-your-own-simple-random-numbers/
+//  ||      x = 16708 * nz(x[1], 1) % 2147483647
+//  ||-------------------------------------------------------------------------||
+    _return = 1.0
+    if na(_seed)
+        _return := 3.14159 * nz(_return[1], 1) % n
+    else
+        _return := 3.14159 * nz(_return[1], 1) % (n + _seed)
+    _return := _return % (_range)
+//  }|--------------------------------------------------------------------<•
 f_pseudo_random_bm(_mean, _dev, _seed)=>
 //  ||-------------------------------------------------------------------------||
 //  ||  Adaptation for Box Muller Method To Generate Random Normal Values      ||
