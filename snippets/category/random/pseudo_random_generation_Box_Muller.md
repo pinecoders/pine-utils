@@ -6,8 +6,9 @@ Function to generate random values.
 The returned value will be a uncapped float value, with bias towards a normal distribution.
 
 ##### References:
-* [link1](https://www.tradingcode.net/tradingview/colours/random-colours/ "link1")
-* [link2](https://cdsmith.wordpress.com/2011/10/10/build-your-own-simple-random-numbers/ "link2")
+* [link1](https://www.howtoexcel.org/statistics/normal-distribution/ "link1")
+* [link2](https://www.excelfunctions.net/excel-ln-function.html "link2")
+* [link3](https://www.google.pt/search?q=function+to+apply+a+random+value+from+bell+curve "link3")
 
 
 #### Code:
