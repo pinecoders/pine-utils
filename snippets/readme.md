@@ -9,7 +9,7 @@ Snippets categorized by its purpose.
   <summary><b>Random:</b></summary>
   
   <!--#### &emsp; Miscellaneous:-->
-  &emsp; Random related snippets:  
+######  &emsp; Random related snippets:  
 &emsp;&emsp; • [Value in a range - Function](/./snippets/category/random/prng_range.md "generate a value within range 0 to parameter.")<br/>
 &emsp;&emsp; • [Value using Box Muller - Function](/./snippets/category/random/prng_Box_Muller.md "generate a value with bias towards a normal distribution.")<br/>
 &emsp;&emsp; • [Value with bias towards a level - Function](/./snippets/category/random/prng_weighed_bias.md "generate a value with bias towards a level.")<br/>
@@ -21,7 +21,7 @@ Snippets categorized by its purpose.
   <summary><b>Miscellaneous:</b></summary>
   
   <!--#### &emsp; Miscellaneous:-->
-  &emsp; Multiple use algorithms:  
+######  &emsp; Multiple use algorithms:  
  &emsp;&emsp; • [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
 
