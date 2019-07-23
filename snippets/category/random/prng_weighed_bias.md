@@ -16,6 +16,20 @@ The returns a float value, with bias towards a level.
   <summary>@version=3</summary>
 
 ```javascript
+f_pseudo_random_number(_range, _seed)=>
+//  ||-------------------------------------------------------------------------||
+//  ||  Basic Pseudo Random Value generator                                    ||
+//  ||-------------------------------------------------------------------------||
+//  |{
+//  ||  Author: Ricardo Santos
+//  ||-------------------------------------------------------------------------||
+    _return = 1.0
+    if na(_seed)
+        _return := 3.14159 * nz(_return[1], 1) % n
+    else
+        _return := 3.14159 * nz(_return[1], 1) % (n + _seed)
+    _return := _return % (_range)
+//  }|--------------------------------------------------------------------<•
 //  ||-------------------------------------------------------------------------||
 //  ||  Weighted Distribution with a bias                                      ||
 //  ||-------------------------------------------------------------------------||
@@ -48,7 +62,23 @@ Generate a random value with bias towards a level. <br/>
 <!--  -->
 <!-- code goes between the backticks: -->
 ```javascript
+study("Function - Pseudo Random Number Example")
+
 //@version=3
+f_pseudo_random_number(_range, _seed)=>
+//  ||-------------------------------------------------------------------------||
+//  ||  Basic Pseudo Random Value generator                                    ||
+//  ||-------------------------------------------------------------------------||
+//  |{
+//  ||  Author: Ricardo Santos
+//  ||-------------------------------------------------------------------------||
+    _return = 1.0
+    if na(_seed)
+        _return := 3.14159 * nz(_return[1], 1) % n
+    else
+        _return := 3.14159 * nz(_return[1], 1) % (n + _seed)
+    _return := _return % (_range)
+//  }|--------------------------------------------------------------------<•
 //  ||-------------------------------------------------------------------------||
 //  ||  Weighted Distribution with a bias                                      ||
 //  ||-------------------------------------------------------------------------||
