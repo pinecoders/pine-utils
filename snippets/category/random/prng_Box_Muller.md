@@ -1,4 +1,4 @@
-# Function to generate random values using Bob Muller technique
+# Function to generate random values using Box Muller technique
 
 #### Description:
 
