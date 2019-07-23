@@ -62,9 +62,9 @@ Generate a random value with bias towards a level. <br/>
 <!--  -->
 <!-- code goes between the backticks: -->
 ```javascript
+//@version=3
 study("Function - Pseudo Random Number Example")
 
-//@version=3
 f_pseudo_random_number(_range, _seed)=>
 //  ||-------------------------------------------------------------------------||
 //  ||  Basic Pseudo Random Value generator                                    ||
