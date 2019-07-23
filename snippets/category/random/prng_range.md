@@ -3,7 +3,7 @@
 #### Description:
 
 Function to generate random values.
-The returned value will be a float value within range 0 -> _range parameter.
+The returned value will be a float value within range `0 -> _range` parameter.
 
 ##### References:
 * [link1](https://www.tradingcode.net/tradingview/colours/random-colours/ "link1")
