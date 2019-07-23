@@ -2,7 +2,7 @@
 # Snippets.
 
 ## Code Snippets for Tradingview Pine Script language:
-Snippets categorized by its purpose.
+Snippets categorized by purpose.
 
 <details open>
   <!-- leave a blank line after summary -->
