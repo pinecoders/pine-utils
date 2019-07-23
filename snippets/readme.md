@@ -6,12 +6,22 @@ Snippets categorized by its purpose.
 
 <details open>
   <!-- leave a blank line after summary -->
+  <summary><b>Random:</b></summary>
+  
+  <!--#### &emsp; Miscellaneous:-->
+  &emsp; Random related snippets:  
+ &emsp;&emsp; • [Random value in range - Function](/./snippets/category/random/pseudo_random_generation_range.md#function-to-generate-random-values-within-range "generate a value within range 0 to parameter.")
+</details>
+
+<details open>
+  <!-- leave a blank line after summary -->
   <summary><b>Miscellaneous:</b></summary>
   
   <!--#### &emsp; Miscellaneous:-->
   &emsp; Multiple use algorithms:  
  &emsp;&emsp; • [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
+
 
 
 <details open>
