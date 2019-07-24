@@ -1,4 +1,4 @@
-# Pseudo Array prototype example
+# Pseudo Array prototype - Technique
 
 #### Description:
 
