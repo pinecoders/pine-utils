@@ -19,7 +19,7 @@ Snippets categorized by purpose.
 
   <!--#### &emsp; -->
 ######  &emsp; Array, list, matrix, time series related snippets:  
-&emsp;&emsp;• [this is a snippet](/./ "link.")<br/>
+&emsp;&emsp;• [Pseudo Array - Technique](/./snippets/category/data_structure/pseudo_array_technique.md "Pseudo Array - Technique.")<br/>
 </details>
 
 <details open>
