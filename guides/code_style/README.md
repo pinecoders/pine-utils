@@ -105,6 +105,5 @@ When lines need to be continued on the next, use two spaces to indent the contin
 # TODO
 
 - [ ] Code example in Structure
-- [ ] Decision on local block (for functions only?) var naming convention.
 
 
