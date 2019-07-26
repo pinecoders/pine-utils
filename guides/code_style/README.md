@@ -53,7 +53,7 @@ We recommend using CamelCase used for variable names. Example: `emaLength`, `obL
 
 ### Function Names
 
-For function names, we recommend using a combination of Hungarian-style `f_` prefix with the usual CamelCase. The prefix allows disambiguation between user-defined and built-in functions. Example: `f_sinh`, `f_daysInMonth`.
+For function names, we recommend using a Hungarian-style `f_` prefix in combination with the usual CamelCase. The `f_` prefix guarantees disambiguation between user-defined and built-in functions. Example: `f_sinh`, `f_daysInMonth`.
 
 ### Function Parameter Names
 
@@ -66,8 +66,8 @@ daysInMonth(_year, _month) =>
 
 The same underscore prefix used for function parameters should also be used for all local variables. Example:
 ```
-f_capLength( _len)
-    _tempLen = _len*20
+f_capLength(_len)
+    _tempLen = _len * 20
     if _tempLen<200 or _tempLen>300
         _tempLen := 200
     _templen
@@ -78,11 +78,21 @@ if something
 ```
 ```
 for _i = 0 to 100
-    _myLocalVar = something
+    _myLocalVar = something[_i]
 ```
 
-**[Back to top](#table-of-contents)**
+## Spacing
 
+A space should be used on both sides of all operators, whether they be assignment, numerical (both binary and unary) or logical. A space should also be used after commas. Example:
+```
+nvar newLen = 2
+newLen := min(20, newlen + 1)
+a = - b
+c = d > e ? d - e : d
+index = bar_index % 2 == 0 ? 1 : 2
+plot(series, color = color.red)
+
+```
 ## Line Wrapping
 
 When lines need to be continued on the next, use two spaces to indent the continuation line.
