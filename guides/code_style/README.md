@@ -47,9 +47,13 @@ code
 
 ## Naming Conventions
 
-### Variable and Function Names
+### Variable Names
 
-CamelCase is recommended. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
+We recommend using CamelCase used for variable names. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
+
+### Function Names
+
+For function names, we recommend using a combination of Hungarian-style `f_` prefix with the usual CamelCase. The prefix allows disambiguation between user-defined and built-in functions. Example: `f_sinh`, `f_daysInMonth`.
 
 ### Function Parameter Names
 
@@ -60,7 +64,22 @@ daysInMonth(_year, _month) =>
 
 ### Local Scope Variable Names
 
-*****Do we need something here, to prevent inadvertent confusion with global scope vars? 
+The same underscore prefix used for function parameters should also be used for all local variables. Example:
+```
+f_capLength( _len)
+    _tempLen = _len*20
+    if _tempLen<200 or _tempLen>300
+        _tempLen := 200
+    _templen
+```
+```
+if something
+    _myLocalVar = something
+```
+```
+for _i = 0 to 100
+    _myLocalVar = something
+```
 
 **[Back to top](#table-of-contents)**
 
