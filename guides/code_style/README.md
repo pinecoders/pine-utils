@@ -15,7 +15,7 @@ The goal of these Coding Conventions is to present a set of best practices and s
 
 1. [Script Structure](#script-structure)
 1. [Naming Conventions](#naming-conventions)
-1. [Naming Conventions](#naming-conventions)
+1. [Spacing](#spacing)
 1. [Line Wrapping](#line-wrapping)
 
 ## Script Structure
