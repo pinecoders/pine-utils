@@ -85,7 +85,7 @@ for _i = 0 to 100
 
 A space should be used on both sides of all operators, whether they be assignment, numerical (both binary and unary) or logical. A space should also be used after commas. Example:
 ```
-nvar newLen = 2
+var newLen = 2
 newLen := min(20, newlen + 1)
 a = - b
 c = d > e ? d - e : d
