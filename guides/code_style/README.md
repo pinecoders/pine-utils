@@ -15,6 +15,7 @@ The goal of these Coding Conventions is to present a set of best practices and s
 
 1. [Script Structure](#script-structure)
 1. [Naming Conventions](#naming-conventions)
+1. [Naming Conventions](#naming-conventions)
 1. [Line Wrapping](#line-wrapping)
 
 ## Script Structure
@@ -80,6 +81,8 @@ if something
 for _i = 0 to 100
     _myLocalVar = something[_i]
 ```
+
+**[Back to top](#table-of-contents)**
 
 ## Spacing
 
