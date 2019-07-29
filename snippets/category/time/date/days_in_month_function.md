@@ -62,7 +62,7 @@ plot(m)
 
 ##### Code Author(s):
   * ##### [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/ "@Tradingview.") 
-  * ##### [Ari Fayin](https://www.tradingview.com/u/a.tesla2018/ "@Tradingview.") 
+  * ##### [Ari Faynerman](https://www.tradingview.com/u/a.tesla2018/ "@Tradingview.") 
 
 <br/>
 <br/>
