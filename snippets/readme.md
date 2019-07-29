@@ -24,14 +24,20 @@ Snippets categorized by purpose.
 
 <details open>
   <!-- leave a blank line after summary -->
-  <summary><b>Random:</b></summary>
+  <summary><b>Math:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Random:</b></summary>
   
   <!--#### &emsp; -->
-######  &emsp; Randomness related snippets:  
-&emsp;&emsp; • [Value in a range - Function](/./snippets/category/math/random/prng_range_function.md "generate a value within range 0 to parameter.")<br/>
-&emsp;&emsp; • [Value using Box Muller - Function](/./snippets/category/math/random/prng_Box_Muller_function.md "generate a value with bias towards a normal distribution.")<br/>
-&emsp;&emsp; • [Value with bias towards a level - Function](/./snippets/category/math/random/prng_weighed_bias_function.md "generate a value with bias towards a level.")<br/>
-&emsp;&emsp; • [Value with bias towards a range - Function](/./snippets/category/math/random/prng_weighed_2bias_function.md "generate a value with bias towards a range within a range.")<br/>
+######  &emsp;&emsp;&emsp; Randomness related snippets:  
+&emsp;&emsp;&emsp;&emsp; • [Value in a range - Function](/./snippets/category/math/random/prng_range_function.md "generate a value within range 0 to parameter.")<br/>
+&emsp;&emsp;&emsp;&emsp; • [Value using Box Muller - Function](/./snippets/category/math/random/prng_Box_Muller_function.md "generate a value with bias towards a normal distribution.")<br/>
+&emsp;&emsp;&emsp;&emsp; • [Value with bias towards a level - Function](/./snippets/category/math/random/prng_weighed_bias_function.md "generate a value with bias towards a level.")<br/>
+&emsp;&emsp;&emsp;&emsp; • [Value with bias towards a range - Function](/./snippets/category/math/random/prng_weighed_2bias_function.md "generate a value with bias towards a range within a range.")<br/>
+</details>
+<!-- Math Snippets go here: -->
 </details>
 
 <details open>
