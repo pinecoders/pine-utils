@@ -17,7 +17,7 @@ Function to determine how many days a month has.
 ```javascript
 f_daysinmonth(_year, _month)=>
 //	|{
-//	||	Author: Ricardo Santos, Ari Fayn
+//	||	Author: Ricardo Santos, Ari Faynerman
 //	||	Description: returns how many days there is in specified month.
 //	||	Reference:
 //	||		https://cmcenroe.me/2014/12/05/days-in-month-formula.html
@@ -45,7 +45,7 @@ study(title="[RS]Function - Days in a Month")
 
 f_daysinmonth(_year, _month)=>
 //	|{
-//	||	Author: Ricardo Santos, Ari Fayn
+//	||	Author: Ricardo Santos, Ari Faynerman
 //	||	Description: returns how many days there is in specified month.
 //	||	Reference:
 //	||		https://cmcenroe.me/2014/12/05/days-in-month-formula.html
