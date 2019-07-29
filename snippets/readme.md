@@ -58,6 +58,28 @@ Snippets categorized by purpose.
 </details>
 
 <!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Output Category: -->
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>Output:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Geometry:</b></summary>
+  
+  <!--#### &emsp;&emsp;&emsp;&emsp; -->
+######  &emsp;&emsp;&emsp; Geometry related snippets:  
+&emsp;&emsp;&emsp;&emsp;• [Draw Rectangle - Function](/./snippets/category/output/geometry/draw_rectangle_function.md "function to draw rectangles on chart.")<br/>
+&emsp;&emsp;&emsp;&emsp;• [Draw Trapezoid - Function](/./snippets/category/output/geometry/draw_trapezoid_function.md "function to draw trapezoids on chart.")<br/>
+&emsp;&emsp;&emsp;&emsp;• [Draw Triangle - Function](/./snippets/category/output/geometry/draw_triangle_function.md "function to draw triangles on chart.")<br/>
+</details>
+
+  <!--#### &emsp; -->
+######  &emsp; Output related snippets:  
+&emsp;&emsp;• [blank](/./ "blank.")<br/>
+</details>
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
 <!-- Time Category: -->
 <details open>
   <!-- leave a blank line after summary -->
