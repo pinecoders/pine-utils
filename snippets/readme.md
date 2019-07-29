@@ -3,7 +3,10 @@
 
 ## Code Snippets for Tradingview Pine Script language:
 Snippets categorized by purpose.
+<!--  -->
 
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Data Structure Category: -->
 <details open>
   <!-- leave a blank line after summary -->
   <summary><b>Data Structure:</b></summary>
@@ -22,6 +25,8 @@ Snippets categorized by purpose.
 &emsp;&emsp;• [Pseudo Array - Technique](/./snippets/category/data_structure/pseudo_array_technique.md "Pseudo Array - Technique.")<br/>
 </details>
 
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Math Category: -->
 <details open>
   <!-- leave a blank line after summary -->
   <summary><b>Math:</b></summary>
@@ -40,6 +45,9 @@ Snippets categorized by purpose.
 <!-- Math Snippets go here: -->
 </details>
 
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Miscellaneous Category: -->
 <details open>
   <!-- leave a blank line after summary -->
   <summary><b>Miscellaneous:</b></summary>
@@ -49,7 +57,32 @@ Snippets categorized by purpose.
  &emsp;&emsp; • [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
 
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Time Category: -->
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>Time:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Date:</b></summary>
+  
+  <!--#### &emsp;&emsp;&emsp;&emsp; -->
+######  &emsp;&emsp;&emsp; Date related snippets:  
+&emsp;&emsp;&emsp;&emsp;• [Days in a month - Function](/./snippets/category/time/date/days_in_month_function.md "function to find how many days in a month.")<br/>
+</details>
 
+  <!--#### &emsp; -->
+######  &emsp; Time related snippets:  
+&emsp;&emsp;• [blank](/./ "blank.")<br/>
+</details>
+
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
 <br/>
 <br/>
 <br/>
