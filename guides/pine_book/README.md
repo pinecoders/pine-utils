@@ -22,7 +22,7 @@ This document presents a path that newcomers to the [Pine Script](https://www.tr
 
 Resources to learn Pine are distributed and there is no real Primer for Pine. Here are a few areas to explore:
 
-1. The two primary sources of information on Pine are the [Pine v4 Documentation](https://www.tradingview.com/pine-script-docs/en/v4/index.html) and [Pine v4 Reference Manual](https://www.tradingview.com/pine-script-reference/v4/).<br/>
+1. The two primary sources of information on Pine are the [Pine v4 Documentation](https://www.tradingview.com/pine-script-docs/en/v4/index.html) and [Pine v4 Reference Manual](https://www.tradingview.com/pine-script-reference/v4/).<br>
 Follow the instructions in the documentation's [Quickstart Guide](https://www.tradingview.com/pine-script-docs/en/v4/Quickstart_guide.html) page to put your first script in action on a chart, and follow the links in that page to familiarize yourself with Pine's key concepts.
 1. Once you start working in the Pine Editor, you can bring up the Reference Manual by Ctrl/&#8984;-clicking on any colored language keyword. From the editor, you can also view a list of keyboard shortcuts by selecting *Pine Editor Keyboard Shortcuts* from the *Help* menu. The editor's *Help* menu will link you to v4 and v3 documentation, and to forums where you can ask questions on Pine.
 1. [Kodify.net](https://kodify.net/tradingview-programming-articles/) is the largest repository of Pine-related articles out there. In more than 200 articles related to Pine programming, they explore Pine features thoroughly and also present techniques for realizing common tasks in Pine.
@@ -48,7 +48,7 @@ Pine indicator code executes once for each bar of the dataset, starting from the
 ## Series
 
 The main data type used in Pine scripts is called a series. It is a continuous list of values that stretches back in time from the current bar and where one value exists for each bar. While this structure may remind many of an array, a Pine series is totally different and thinking in terms of arrays will be detrimental to understanding this key Pine concept. You can read about series [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Type_system.html#series) and get more information on how to use them [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Operators.html#history-referencing-operator).<br/>
-     — quoted from the Pine v4 documentation
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;— quoted from the Pine v4 documentation
 
 ## New to programming?
 If you are new to programming, then you have a double learning curve to go through: learn to program and learn Pine. You will need to do your homework and spend the countless hours required to become able to convert your trading ideas into working code.
