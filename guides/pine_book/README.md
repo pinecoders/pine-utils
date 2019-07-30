@@ -70,7 +70,7 @@ If you already have programming experience, learning Pine is mostly about becomi
 
 Here are a few methods for troubleshooting pine-related issues:
 
-- The are tens of thousands of scripts published on TradingView, many with open source code. To find them, you can browse scripts on TV from [here](https://www.tradingview.com/scripts/), or search TV scripts by going to TradingView’s [main page](https://www.tradingview.com/), selecting Scripts in the dropdown at the left of the search field and entering what you are looking for.
+- The are tens of thousands of scripts published on TradingView, many with open source code. To find them, you can browse scripts on TV from [here](https://www.tradingview.com/scripts/), or search TV scripts by going to TradingView’s [main page](https://www.tradingview.com/), selecting *Scripts* in the dropdown at the left of the search field and entering what you are looking for.
 
 ![search](search_for_scripts.png "Search for scripts")
 
