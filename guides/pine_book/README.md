@@ -8,12 +8,12 @@ This document presents a path that newcomers to the Pine Script programming lang
 
 ### Table of Contents
 
-1. [Script Structure](#script-structure)
+1. [Where to go?](#Where_to_go?)
 1. [Naming Conventions](#naming-conventions)
 1. [Spacing](#spacing)
 1. [Line Wrapping](#line-wrapping)
 
-## Script Structure
+## Where to go?
 
 
 Resources to learn Pine are distributed and there is no real Primer for Pine. Here are a few areas to explore:
