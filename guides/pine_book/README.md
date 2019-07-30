@@ -39,6 +39,8 @@ If you want to design a trading system that trades on MACD setups, you may write
 
 Because it is specialized, Pine is very powerful. You can write two lines of Pine to do what could take hundreds in other languages. The same specialization that makes Pine powerful also implies a high abstraction level; until you understand a few key concepts about Pine and its runtime environment, it will be difficult to make sense of Pine code.
 
+There are 4 supported versions of Pine, from 1 to 4. A compiler directive used in the script's first line will tell you what version of Pine the script is written for (when no such directive is present, v1 is the default used). It is important to know which version the code you will be writing or studying is, as keywords and programming techniques can vary quite a bit between versions.
+
 ## Pine runtime environment
 
 Pine indicator code executes once for each bar of the dataset, starting from the beginning of the chart’s history. When the realtime bar is reached, *indicator* scripts executes every time price changes, while *strategy* scripts may be configured to behave like indicators, or to run only at the close of the realtime bar (the default). See [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Execution_model.html) for more information.
