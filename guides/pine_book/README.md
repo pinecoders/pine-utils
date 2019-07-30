@@ -23,11 +23,11 @@ This document presents a path that newcomers to the Pine Script programming lang
 Resources to learn Pine are distributed and there is no real Primer for Pine. Here are a few areas to explore:
 
 1. If you are interested in learning the new version 4 of Pine just released, see the [Pine v4 Documentation](https://www.tradingview.com/pine-script-docs/en/v4/Quickstart_guide.html) and [Pine v4 Reference Manual](https://www.tradingview.com/pine-script-reference/v4/).
-1. Kodify.net has a good TradingView blog with many useful articles on Pine programming. Subjects are explored in quite a bit of detail.
-1. Backtest Rookies also has articles on Pine. They produce quality material illustrating many of the typical things Pine coders want to do or explore.
-1. YouTube has some videos by Pine coders. These are a few introductory-level ones:
-How To Use Tradingview Pine Script - Introduction and its part 2. A search for pine introduction tradingview will turn up a few others and you will find links to a few youtubers producing Pine content in our Pine Resources.
-1. Note that you can bring up the Reference Manual from within the Pine editor by CTRL clicking on any colored language element. In the editor, you can see a list of keyboard shortcuts with Help/Pine Editor Keyboard Shortcuts. The Pine Editor's Help menu will also link you to Pine documentation.
+Note that you can bring up the Reference Manual from within the Pine editor by CTRL clicking on any colored language element. In the editor, you can see a list of keyboard shortcuts with Help/Pine Editor Keyboard Shortcuts. The Pine Editor's Help menu will also link you to Pine documentation.
+1. [Kodify.net](https://kodify.net/tradingview-programming-articles/) is the largest repository of Pine-related articles out there. In more than 200 articles related to Pine programming, they explore Pine features thoroughly and also present techniques for realizing common tasks in Pine.
+1. Backtest Rookies also has some articles on Pine. They produce quality material illustrating many of the typical things Pine coders want to do or explore.
+1. YouTube has content by Pine coders. These are a few introductory-level ones:
+- How To Use Tradingview Pine Script - Introduction and its part 2. A search for pine introduction tradingview will turn up a few others and you will find links to a few youtubers producing Pine content in our Pine Resources.
 1. PineCoders maintains a Pine FAQ & Code.
 
 ## What’s Pine?
