@@ -33,34 +33,26 @@ Follow the instructions in the documentation's Quickstart Guide page to put your
 
 ## What’s Pine?
 
-Pine is a specialized language used to write studies (a.k.a. indicators) or backtesting strategies on the TradingView platform. Indicators are used to show graphic information on a chart or in an indicator Pane. If you wish to write a MACD in Pine, you do that by creating an indicator. Strategies can display visual information on charts or Panes in the same way an indicator would, but they also contain additional Pine commands to simulate trades in order to run backtests.
+Pine is a specialized language used to write studies (a.k.a. indicators) or backtesting strategies on the TradingView platform. **Indicators** are used to show graphic information on a chart or in an indicator Pane. If you wish to write a MACD in Pine, you do that by creating an indicator. **Strategies** can display visual information on charts or Panes in the same way an indicator would, but they also contain additional Pine commands to simulate trades in order to run backtests.
 
-If you want to design a trading system that trades on MACD conditions, you will write a strategy to test it, and then convert it to a study to generate alerts in order to discretionary trade on them or send them to an execution bot for relaying orders to markets. Be sure to look at the XXXPineCoders Backtesting and Trading Engine if this is your goal.
+If you want to design a trading system that trades on MACD setups, you will write a *strategy* to test it, and then convert it to a *study* (or *indicator*) to generate alerts in order to discretionary trade on them or send them to an execution bot for relaying orders to markets. Be sure to look at the PineCoders [Backtesting and Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-Pinescripters/) if this is your objective.
 
 Because it is specialized, Pine is very powerful. You can write two lines of Pine to do what could take hundreds in other languages. The same specialization that makes Pine powerful also implies a high abstraction level; until you understand a few key concepts about Pine and its runtime environment, it will be difficult to make sense of Pine code.
 
 ## Pine runtime environment
 
-Pine indicator code executes once for each bar of the dataset, starting from the beginning of the chart’s history. When the realtime bar is reached, code executes every time price changes.
+Pine indicator code executes once for each bar of the dataset, starting from the beginning of the chart’s history. When the realtime bar is reached, code executes every time price changes. See [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Execution_model.html) for more information.
 
 ## Series
 
-Most data in Pine is stored in series (somewhat like arrays, but with a dynamic index). Let’s see how the index is dynamic, and why series are also very different from arrays. In Pine, the close variable holds the price at the close of the current bar. If your code is now executing on the third bar of the dataset, close will contain the price at the close of that bar, close[1] will contain the price at the close of the preceding bar (the second), and close[2], the first.
-
-When the same code is executed on the next bar, the fourth in the dataset, close will now contain the closing price of that bar, and the same close[1] used in your code will now refer to the close of the third bar. The close of the first bar in the dataset will now be close[3].
-
-In the Pine runtime environment, as your code is executed once for each bar in the dataset, starting from the left of the chart, Pine is adding a new element in the series at index 0 and pushing the pre-existing elements in the series one index further away. Arrays, in comparison, are usually static in size and their content or indexing structure is not modified by the runtime environment. Pine series are thus different from arrays and share familiarity with them through their indexing syntax, mostly. Pine actually doesn't even support the array data structure.
-
-Note that the close variable means something different at the current, realtime bar; it then represents the current price and will only contain the real closing price of the realtime bar the last time code is executed on that bar, and from then on, when it is referred to using an index.
-
-Pine has a variable that keeps track of the bar count: n. On the first bar, n=0 and it increases by 1 at each new bar, so at the last bar, n is equal to the number of bars in the dataset minus one.
+The main data type used in Pine scripts is called a series. It is a continuous list of values that stretches back in time from the current bar and where one value exists for each bar. While this structure may remind many of an array, a Pine series is totally different and thinking in terms of arrays will be detrimental to understanding this key Pine concept. You can read about series [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Type_system.html#series) and get more information on how to use them [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Operators.html#history-referencing-operator). (quoted from the Pine v4 documentation)
 
 ## New to Programming?
 If you are new to programming, then you have a double learning curve to go through: learn to program and learn Pine. You will need to do your homework and spend the countless hours required to become able to convert your trading ideas into working code.
 
 Either way, the most productive way to learn is always to start playing with real code early. Start with the examples in the next section. Make slight changes to the code and see what impact they have, and you’ll be on your way.
 
-If you already have programming experience, learning Pine is mostly about becoming proficient in manipulating series, and then understanding the abstractions, the runtime environment and the limitations (no type-casting, for example), as the language itself is straightforward.
+If you already have programming experience, learning Pine is mostly about becoming proficient in manipulating series, and then understanding the abstractions, the runtime environment and the typing and runtime limitations, as the language itself is straightforward.
 
 ## Code examples
 
