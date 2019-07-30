@@ -64,7 +64,7 @@ If you already have programming experience, learning Pine is mostly about becomi
 - On TradingView, PineCoders publishes [Pine examples and tools](https://www.tradingview.com/u/PineCoders/#published-scripts) and also follows [top Pine coders](https://www.tradingview.com/u/PineCoders/#following-people) who publish mostly open source code. Studying their code is one the best ways to learn.
 - Kodify has an article on [Pine operators](https://kodify.net/tradingview/operators/operators-operands/) that can help you get started.
 - Backtest Rookies has an article on [Writing a First Script](https://backtest-rookies.com/2017/06/07/trading-view-first-script/).
-- Examples of common tasks in Pine by TV users [vtvlkv](https://www.tradingview.com/u/vitvlkv/#published-scripts), [apozdnyakov](https://www.tradingview.com/u/apozdnyakov/#published-scripts) and [pinetech]().
+- Examples of common tasks in Pine by TV users [vtvlkv](https://www.tradingview.com/u/vitvlkv/#published-scripts) and [apozdnyakov](https://www.tradingview.com/u/apozdnyakov/#published-scripts).
 
 ## Troubleshooting Pine code
 
