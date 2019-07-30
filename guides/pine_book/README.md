@@ -48,7 +48,7 @@ Pine indicator code executes once for each bar of the dataset, starting from the
 The main data type used in Pine scripts is called a series. It is a continuous list of values that stretches back in time from the current bar and where one value exists for each bar. While this structure may remind many of an array, a Pine series is totally different and thinking in terms of arrays will be detrimental to understanding this key Pine concept. You can read about series [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Type_system.html#series) and get more information on how to use them [here](https://www.tradingview.com/pine-script-docs/en/v4/language/Operators.html#history-referencing-operator).<br/>
 — quoted from the Pine v4 documentation
 
-## New to Programming?
+## New to programming?
 If you are new to programming, then you have a double learning curve to go through: learn to program and learn Pine. You will need to do your homework and spend the countless hours required to become able to convert your trading ideas into working code.
 
 Either way, the most productive way to learn is always to start playing with real code early. Start with the examples in the next section. Make slight changes to the code and see what impact they have, and you’ll be on your way.
@@ -57,11 +57,12 @@ If you already have programming experience, learning Pine is mostly about becomi
 
 ## Code examples
 
-- TradingView Pine v4 example of a simple script.
-- PineCoders publishes Pine examples and tools on TradingView.
-- This is a Kodify article on Pine operators.
-- Backtest Rookies has an article on Writing a First Script.
-- Examples of common tasks in Pine by vtvlkv.
+- [TradingView Pine v4 example of a simple script](https://www.tradingview.com/pine-script-docs/en/v4/Quickstart_guide.html).
+- PineCoders publishes [Pine examples and tools](https://www.tradingview.com/u/PineCoders/#published-scripts) on TradingView.
+- Pinecoders also follows [top Pine coders](https://www.tradingview.com/u/PineCoders/#following-people) who publish mostly open source code. Studying their code is one the best ways to learn.
+- Kodify has an article on [Pine operators](https://kodify.net/tradingview/operators/operators-operands/) that can help you get started.
+- Backtest Rookies has an article on [Writing a First Script](https://backtest-rookies.com/2017/06/07/trading-view-first-script/).
+- Examples of common tasks in Pine by TV user [vtvlkv](https://www.tradingview.com/u/vitvlkv/#published-scripts).
 
 ## Troubleshooting Pine code
 
