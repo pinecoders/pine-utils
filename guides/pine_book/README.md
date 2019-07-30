@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This document presents a path that newcomers to the [Pine Script](https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html) programming language can follow. Pine Script is the programming language used on the [TradingView](http://www.tradingview.com) charting platform.
+This document is designed to help newcomers to the [Pine Script](https://www.tradingview.com/pine-script-docs/en/v4/Introduction.html) programming language. Pine Script is the programming language used on the [TradingView](http://www.tradingview.com) charting platform.
 
 ### Table of Contents
 
