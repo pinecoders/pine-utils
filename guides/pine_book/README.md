@@ -12,6 +12,7 @@ This document presents a path that newcomers to the Pine Script programming lang
 1. [What’s Pine?](#whats-Pine)
 1. [Pine runtime environment](#pine-runtime-environment)
 1. [Series](#series)
+1. [New to programming](#new-to-programming)
 1. [Code examples](#code-examples)
 1. [Troubleshooting Pine code](#troubleshooting-pine-code)
 1. [Conversion from other platforms](#conversion-from-other-platforms)
