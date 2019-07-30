@@ -8,8 +8,8 @@ This document presents a path that newcomers to the Pine Script programming lang
 
 ### Table of Contents
 
-1. [Where to go?](#where-to-go?)
-1. [What’s Pine?](#what’s-Pine?)
+1. [Where to go?](#where-to-go)
+1. [What’s Pine?](#what’s-Pine)
 1. [Pine runtime environment](#pine-runtime-environment)
 1. [Series](#series)
 1. [Code examples](#code-examples)
