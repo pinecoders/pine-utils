@@ -22,8 +22,7 @@ This document presents a path that newcomers to the Pine Script programming lang
 
 Resources to learn Pine are distributed and there is no real Primer for Pine. Here are a few areas to explore:
 
-1. If you are interested in learning the new version 4 of Pine just released, see the [Pine v4 Documentation](https://www.tradingview.com/pine-script-docs/en/v4/Quickstart_guide.html) and [Pine v4 Reference Manual](https://www.tradingview.com/pine-script-reference/v4/).
-
+1. If you are interested in learning the new version 4 of Pine just released, see the [Pine v4 Documentation](https://www.tradingview.com/pine-script-docs/en/v4/Quickstart_guide.html) and [Pine v4 Reference Manual](https://www.tradingview.com/pine-script-reference/v4/).<br/>
 Note that you can bring up the Reference Manual from within the Pine Editor by CTRL-clicking on any colored language element. In the editor, you can view a list of keyboard shortcuts by selecting *Pine Editor Keyboard Shortcuts* from the *Help* menu. The Pine Editor's *Help* menu will also link you to v4 and v3 documentation.
 1. [Kodify.net](https://kodify.net/tradingview-programming-articles/) is the largest repository of Pine-related articles out there. In more than 200 articles related to Pine programming, they explore Pine features thoroughly and also present techniques for realizing common tasks in Pine.
 1. [Backtest Rookies](https://backtest-rookies.com/category/tradingview/) also has some articles on Pine. They produce quality material illustrating many of the typical things Pine coders want to do or explore.
