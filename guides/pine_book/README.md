@@ -74,6 +74,7 @@ Google is sometimes helpful. You'll often end up on either kodify.net, backtestr
 The are tens of thousands of scripts published on TradingView, many with open source code. To find them:
 
 1. Search TV scripts by going to TradingView’s main page, selecting Scripts in the dropdown at the left of the search field and entering what you are looking for.
+
 ![search](search_for_scripts.png "Search for scripts")
 
 1. Use Google. You'll often end up on either kodify.net, backtestrookies.com, stackoverflow.com, getsatisfaction.com or the TV wiki. If you are seearching for indicators on TradingVIew, you can use Google with: `site:tradingview.com intitle:indicatorname` for better results.
