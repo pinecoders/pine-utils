@@ -73,14 +73,14 @@ Google is sometimes helpful. You'll often end up on either kodify.net, backtestr
 
 The are tens of thousands of scripts published on TradingView, many with open source code. To find them:
 
-1. Search TV scripts by going to TradingView’s main page, selecting Scripts in the dropdown at the left of the search field and entering what you are looking for.
+- Search TV scripts by going to TradingView’s main page, selecting Scripts in the dropdown at the left of the search field and entering what you are looking for.
 
 ![search](search_for_scripts.png "Search for scripts")
 
-1. Use Google. You'll often end up on either kodify.net, backtestrookies.com, stackoverflow.com, getsatisfaction.com or the TV wiki. If you are seearching for indicators on TradingVIew, you can use Google with: `site:tradingview.com intitle:indicatorname` for better results.
-1. Search [Pastebin](https://pastebin.com/) using the proper keywords and `version=X`, replacing `X` with the version of Pine you are working on.
-1. Plot the hell out of it. Try simple temporary plots of data, just to see where you're at. It’s a good way to get a feel for what's going on inside the runtime loop. If your debugging plots wreak havoc on scale when you `plot(var)`, use `plotchar(var, "var description", "")` to plot the value in the indicator values and in the Data Window (look it up; it's real useful) without disrupting the visuals on your indicator. Backtest Rookies has an [article on debugging techniques](https://backtest-rookies.com/2018/02/09/tradingview-pinescript-debugging-plotting-tips-tricks/).
-1. Ask questions in either the TradingView Pine Script Editor chat, at XXXPineCoders, or StackOverflow. When you ask questions, take the time to state your problem concisely and clearly. The better you explain it, the more chances you have of getting an answer. The people answering questions in the different groups will not teach you Pine; you need to learn on your own as we’ve all done, but they can help you out when you are stuck.
+- Use Google. You'll often end up on either kodify.net, backtestrookies.com, stackoverflow.com, getsatisfaction.com or the TV wiki. If you are seearching for indicators on TradingVIew, you can use Google with: `site:tradingview.com intitle:indicatorname` for better results.
+- Search [Pastebin](https://pastebin.com/) using the proper keywords and `version=X`, replacing `X` with the version of Pine you are working on.
+- Plot the hell out of it. Try simple temporary plots of data, just to see where you're at. It’s a good way to get a feel for what's going on inside the runtime loop. If your debugging plots wreak havoc on scale when you `plot(var)`, use `plotchar(var, "var description", "")` to plot the value in the indicator values and in the Data Window (look it up; it's real useful) without disrupting the visuals on your indicator. Backtest Rookies has an [article on debugging techniques](https://backtest-rookies.com/2018/02/09/tradingview-pinescript-debugging-plotting-tips-tricks/).
+- Ask questions in either the TradingView Pine Script Editor chat, at XXXPineCoders, or StackOverflow. When you ask questions, take the time to state your problem concisely and clearly. The better you explain it, the more chances you have of getting an answer. The people answering questions in the different groups will not teach you Pine; you need to learn on your own as we’ve all done, but they can help you out when you are stuck.
 
 ## Conversion from other platforms
 
