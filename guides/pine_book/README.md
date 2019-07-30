@@ -9,9 +9,12 @@ This document presents a path that newcomers to the Pine Script programming lang
 ### Table of Contents
 
 1. [Where to go?](#Where_to_go?)
-1. [Naming Conventions](#naming-conventions)
-1. [Spacing](#spacing)
-1. [Line Wrapping](#line-wrapping)
+1. [What’s Pine?](#What’s_Pine?)
+1. [Pine runtime environment](#Pine_runtime_environment)
+1. [Series](#Series)
+1. [Code examples](#Code_examples)
+1. [Troubleshooting Pine code](#Troubleshooting_Pine_code)
+1. [Conversion from other platforms](#Conversion_from_other_platforms)
 
 ## Where to go?
 
