@@ -87,6 +87,8 @@ daysInMonth(_year, _month) =>
 When a function requires global scope variables to perform its calculations, these dependencies should be documented in comments. Dependencies are to be avoided whenever possible, as they jeopardize function portability and make code more difficult to read.
 
 ```
+lenMultiplier = input(2, "Length Multiplier")
+
 f_getSlowLength(_len) =>
     // Dependencies: lenMultiplier (initialized in inputs). 
     _tempLen = _len * lenMultiplier
