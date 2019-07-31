@@ -4,6 +4,7 @@
 
 Place description of your snippet here.
 
+<!-- optional -->
 ##### References:
   * [Link](http:\\alinktonowhere.come "description_of_link")
 
@@ -33,6 +34,7 @@ f_phi() =>
 ```
 </details>
 
+<!-- optional -->
 #### Example:
 
 Place description of the example here.<br/>
@@ -57,6 +59,7 @@ plot(series=example, title="Example", color=color.red)
 ```
 </details>
 
+<!-- optional -->
 ##### Code Author(s):
   * [Author](http:\\linkifavaiable "@nickname")
 

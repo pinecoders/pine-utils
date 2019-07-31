@@ -2,21 +2,119 @@
 # Snippets.
 
 ## Code Snippets for Tradingview Pine Script language:
-Snippets categorized by its purpose.
+Snippets categorized by purpose.
+<!--  -->
 
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Data Structure Category: -->
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>Data Structure:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Processing:</b></summary>
+  
+  <!--#### &emsp;&emsp;&emsp;&emsp; -->
+######  &emsp;&emsp;&emsp; Processing and filtering of data related snippets:  
+&emsp;&emsp;&emsp;&emsp;• [zScore - Function](/./snippets/category/data_structure/processing/zscore_function.md "Standardization using zScore.")<br/>
+</details>
+
+  <!--#### &emsp; -->
+######  &emsp; Array, list, matrix, time series related snippets:  
+&emsp;&emsp;• [Pseudo Array - Technique](/./snippets/category/data_structure/pseudo_array_technique.md "Pseudo Array - Technique.")<br/>
+</details>
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Math Category: -->
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>Math:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Random:</b></summary>
+  
+  <!--#### &emsp; -->
+######  &emsp;&emsp;&emsp; Randomness related snippets:  
+&emsp;&emsp;&emsp;&emsp; • [Value in a range - Function](/./snippets/category/math/random/prng_range_function.md "generate a value within range 0 to parameter.")<br/>
+&emsp;&emsp;&emsp;&emsp; • [Value using Box Muller - Function](/./snippets/category/math/random/prng_Box_Muller_function.md "generate a value with bias towards a normal distribution.")<br/>
+&emsp;&emsp;&emsp;&emsp; • [Value with bias towards a level - Function](/./snippets/category/math/random/prng_weighed_bias_function.md "generate a value with bias towards a level.")<br/>
+&emsp;&emsp;&emsp;&emsp; • [Value with bias towards a range - Function](/./snippets/category/math/random/prng_weighed_2bias_function.md "generate a value with bias towards a range within a range.")<br/>
+</details>
+<!-- Math Snippets go here: -->
+</details>
+
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Miscellaneous Category: -->
 <details open>
   <!-- leave a blank line after summary -->
   <summary><b>Miscellaneous:</b></summary>
   
   <!--#### &emsp; Miscellaneous:-->
-  &emsp; Multiple use algorithms:  
+######  &emsp; Multiple use or unsorted snippets:  
  &emsp;&emsp; • [Nth Fibonacci](/./snippets/category/miscellaneous/nth_fibonacci.md#function-to-find-nth-fibonacci "Find the Nth Fibonacci sequence number.")
 </details>
 
-
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Output Category: -->
 <details open>
   <!-- leave a blank line after summary -->
-  <summary>Category A</summary>
+  <summary><b>Output:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Geometry:</b></summary>
+  
+  <!--#### &emsp;&emsp;&emsp;&emsp; -->
+######  &emsp;&emsp;&emsp; Geometry related snippets:  
+&emsp;&emsp;&emsp;&emsp;• [Draw Rectangle - Function](/./snippets/category/output/geometry/draw_rectangle_function.md "function to draw rectangles on chart.")<br/>
+&emsp;&emsp;&emsp;&emsp;• [Draw Trapezoid - Function](/./snippets/category/output/geometry/draw_trapezoid_function.md "function to draw trapezoids on chart.")<br/>
+&emsp;&emsp;&emsp;&emsp;• [Draw Triangle - Function](/./snippets/category/output/geometry/draw_triangle_function.md "function to draw triangles on chart.")<br/>
+</details>
+
+  <!--#### &emsp; -->
+######  &emsp; Output related snippets:  
+&emsp;&emsp;• [blank](/./ "blank.")<br/>
+</details>
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- Time Category: -->
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>Time:</b></summary>
+  
+<details open>
+  <!-- leave a blank line after summary -->
+  <summary><b>&emsp;• Date:</b></summary>
+  
+  <!--#### &emsp;&emsp;&emsp;&emsp; -->
+######  &emsp;&emsp;&emsp; Date related snippets:  
+&emsp;&emsp;&emsp;&emsp;• [Days in a month - Function](/./snippets/category/time/date/days_in_month_function.md "function to find how many days in a month.")<br/>
+</details>
+
+  <!--#### &emsp; -->
+######  &emsp; Time related snippets:  
+&emsp;&emsp;• [blank](/./ "blank.")<br/>
+</details>
+
+
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<details close>
+  <!-- leave a blank line after summary -->
+  <summary>Template</summary>
   
   #### Category A Snippets
   Perhaps a description is usefull..
@@ -25,7 +123,6 @@ Snippets categorized by its purpose.
      * Snippet A2.1
      * Snippet A2.2
   3. Snippet A3
-</details>
 
 <details open>
   <!-- leave a blank line after summary -->
@@ -55,4 +152,6 @@ Snippets categorized by its purpose.
      * Snippet B3.1
      * Snippet B3.2
   4. Snippet B3
+</details>
+
 </details>
