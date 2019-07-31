@@ -18,7 +18,7 @@ The goal of these Coding Conventions is to present a set of best practices and s
 
 The Pine compiler is not very strict on exact positioning of specific statements or compiler directives. While many other arrangements are syntactically correct, these guidelines aim to provide a standard way of ordering elements in scripts:
 
-1. The first line of a script should be the `//@version=` compiler directive. While the compiler defaults to Pine version 1 when no directive is used, scripts written with version 1 of Pine should nonetheless contain the `//@version=1` on their first line.
+1. The first line of a script should be the `//@version=X` compiler directive, where `X` is replaced by the version of Pine the script is written for. While the compiler defaults to Pine version 1 when no directive is used, scripts written with version 1 of Pine should nonetheless contain the `//@version=1` directive on their first line.
 
 1. **Comments** describing the script are usually placed immediately after the `@version` compiler directive.
 
