@@ -134,8 +134,5 @@ When lines need to be continued on the next, use two spaces to indent the contin
 
 **[Back to top](#table-of-contents)**
 
-# TODO
-
-- [ ] Code example in Structure
 
 
