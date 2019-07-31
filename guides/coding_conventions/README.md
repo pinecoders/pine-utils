@@ -130,7 +130,7 @@ for _i = 0 to 100
 
 ## Spacing
 
-A space should be used on both sides of all operators, whether they be assignment, numerical (binary or unary) or logical. A space should also be used after commas. Example:
+A space should be used on both sides of all operators, whether they be assignment, arithmetic (binary or unary) or logical. A space should also be used after commas. Example:
 
 ```
 a = close > open ? 1 : -1
