@@ -70,7 +70,7 @@ plot(signal, color=color.orange)
 
 ### Variable Names
 
-We recommend using CamelCase used for variable names. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
+We recommend using CamelCase for variable names. Example: `emaLength`, `obLevel`, `showSignal2`, `aLongVariableName`.
 
 ### Function Names
 
