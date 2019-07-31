@@ -73,7 +73,7 @@ f_getSlowLength(_len)
     _tempLen = _len * lenMultiplier
     if _tempLen<20 or _tempLen>30
         _tempLen := 25
-    _templen
+    _tempLen
 ```
 
 ### Local Scope Variable Names
@@ -84,7 +84,7 @@ f_getSlowLength(_len)
     _tempLen = _len * 2
     if _tempLen<20 or _tempLen>30
         _tempLen := 25
-    _templen
+    _tempLen
 ```
 ```
 if something
