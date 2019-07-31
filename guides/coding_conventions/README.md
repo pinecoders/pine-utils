@@ -22,7 +22,7 @@ The Pine compiler is not very strict on exact positioning of specific statements
 
 1. **Comments** describing the script are usually placed immediately after the `@version` compiler directive.
 
-1. The first line of Pine code should be either the `study()` or `strategy()` declaration statement.
+1. The first Pine statement in the script should be either the `study()` or `strategy()` declaration statement.
 
 1. The next lines should contain the script's **inputs**.
 
