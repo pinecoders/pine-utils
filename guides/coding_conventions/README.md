@@ -129,8 +129,10 @@ for _i = 0 to 100
 
 ## Spacing
 
-A space should be used on both sides of all operators, whether they be assignment, numerical (both binary and unary) or logical. A space should also be used after commas. Example:
+A space should be used on both sides of all operators, whether they be assignment, numerical or logical. A space should also be used after commas. A space is not used after unary operators, as in the first example of these:
+
 ```
+a = close > open ? 1 : -1
 var newLen = 2
 newLen := min(20, newlen + 1)
 a = - b
@@ -139,6 +141,7 @@ index = bar_index % 2 == 0 ? 1 : 2
 plot(series, color = color.red)
 
 ```
+
 ## Line Wrapping
 
 When lines need to be continued on the next, use two spaces to indent the continuation line.
