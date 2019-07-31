@@ -77,7 +77,8 @@ For function names, we recommend using a Hungarian-style `f_` prefix in combinat
 
 ### Function Parameter Names
 
-Function parameters should be prefixed with the underscore in order to differentiate them from global and local scope variables. Example:
+Function parameters should be prefixed with the underscore in order to differentiate them from global scope variables. Example:
+
 ```
 daysInMonth(_year, _month) =>
 ```
