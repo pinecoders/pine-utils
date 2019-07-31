@@ -28,9 +28,10 @@ When you need to create multiple alerts you can repeat the method above for ever
 
 When more than one condition can trigger a single alert, you will most probably need to have visual cues for each condition so that when users bring up a chart on which an alert triggered they can figure out which condition caused the alert to trigger. This is a method that allows users of your script to customize the alert to their needs.
 
-When TradingView creates an alert, it saves a snapshot of the environment that will enable the alert to run on the servers. The important elements saved with an alert are:
+When TradingView creates an alert, it saves a snapshot of the environment that will enable the alert to run on the servers. The elements saved with an alert are:
 - Current symbol,
 - Current time frame,
 - State of the script's *Inputs* selections,
 - Current version of the script. Subsequent updates to the script’s code will not affect the alerts created with prior versions.
-**Also note that alerts are not available from within strategies.**
+
+**Note that while alert condition code will compile in strategy code, they are only functional in studies.**
