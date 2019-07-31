@@ -19,6 +19,7 @@ greenCandle = close>open
 ```
 
 ## How do I make an alert available from my indicator?
+See the User Manual page on [`alertcondition()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Alert_conditions.html)
 ```
 triggerCondition = close>close[1]
 alertcondition(triggerCondition, title="Create Alert dialog box name", message="Text sent with alert.")
@@ -29,7 +30,7 @@ When more than one condition can trigger a single alert, you will most probably 
 
 When TradingView creates an alert, it saves a snapshot of the environment that will enable the alert to run on the servers. The important elements saved with an alert are:
 - Current symbol,
-- Current time frame (interval),
+- Current time frame,
 - State of the script's *Inputs* selections,
 - Current version of the script. Subsequent updates to the script’s code will not affect the alerts created with prior versions.
 **Also note that alerts are not available from within strategies.**
