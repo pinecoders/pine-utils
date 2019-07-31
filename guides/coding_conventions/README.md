@@ -145,7 +145,7 @@ plot(series, color = color.red)
 
 ## Line Wrapping
 
-When lines need to be continued on the next, use two spaces to indent the continuation line.
+When lines need to be continued on the next, use two spaces to indent each continuation line.
 
 **[Back to top](#table-of-contents)**
 
