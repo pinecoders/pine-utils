@@ -1,6 +1,6 @@
 ![logo](../../images/pinelong.png "Pine")
 
-# PineCOders FAQ & Code
+# FAQ & Code
 
 ## Introduction
 
