@@ -47,7 +47,13 @@ Here is an example of a complete script:
 study("MACD")
 // ————— Inputs
 fast = input(12, "Fast Length")
-slow = input(26, "Slow Length")
+// Calculates slow length from fast length and normalizes it if needed.
+f_getSlowLength(_len) =>
+    _tempLen = _len * 2
+    if _tempLen < 20 or _tempLen > 30
+        _tempLen := 25
+    _tempLen
+slow = f_getSlowLength(fast)
 // ————— Calculations
 fastMa = ema(close, fast)
 slowMa = ema(close, slow)
