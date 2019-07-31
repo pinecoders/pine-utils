@@ -19,7 +19,6 @@ This document aims to provide information that will be useful for newcomers to t
 
 ## Where to go?
 
-
 There are many resources to learn Pine. These are the most important. While you will not begin by reading the Reference Manual, it's important to know where it is. The Quickstart Guide is a good place to start and branch out to key areas of the User Manual.
 
 1. The two primary sources of information on Pine are the [Pine v4 User Manual](https://www.tradingview.com/pine-script-docs/en/v4/index.html) and [Pine v4 Reference Manual](https://www.tradingview.com/pine-script-reference/v4/).<br>
