@@ -151,7 +151,7 @@ When lines need to be continued on the next, use two spaces to indent each conti
 plot(
   series = close,
   title = "Close",
-  color = color.blue
+  color = color.blue,
   show_last = 10
   )
 ```
@@ -162,7 +162,7 @@ Tabs may be used to line up elements in order to increase readability.
 plot(
   series    = close,
   title     = "Close",
-  color     = color.blue
+  color     = color.blue,
   show_last = 10
   )
 ```
