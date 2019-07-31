@@ -97,6 +97,15 @@ f_getSlowLength(_len) =>
     _tempLen
 ```
 
+This is a preferable way to write the same function, which eliminates dependencies:
+
+```
+f_getSlowLength(_len, _mult) =>
+    _tempLen = _len * _mult
+    if _tempLen < 20 or _tempLen > 30
+        _tempLen := 25
+    _tempLen
+```
 ### Local Scope Variable Names
 
 The same underscore prefix used for function parameters should also be used for all local variables. Example:
