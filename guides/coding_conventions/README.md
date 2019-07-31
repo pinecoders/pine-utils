@@ -41,7 +41,21 @@ The Pine compiler is not very strict on exact positioning of specific statements
 Here is an example of a complete script:
 
 ```
-code
+//@version=4
+// MACD indicator, a Gerald Appel concept.
+// Author: admin, v1.0, 2019.07.31
+study("MACD")
+// ————— Inputs
+fast = input(12, "Fast Length")
+slow = input(26, "Slow Length")
+// ————— Calculations
+fastMa = ema(close, fast)
+slowMa = ema(close, slow)
+macd = fastMa - slowMa
+signal = sma(macd, 9)
+// ————— Plots
+plot(macd, color=color.blue)
+plot(signal, color=color.orange)
 ```
 
 **[Back to top](#table-of-contents)**
@@ -68,10 +82,10 @@ daysInMonth(_year, _month) =>
 When a function requires global scope variables to perform its calculations, these dependencies should be documented in comments. Dependencies are to be avoided whenever possible, as they jeopardize function portability and make code more difficult to read.
 
 ```
-f_getSlowLength(_len)
+f_getSlowLength(_len) =>
     // Dependencies: lenMultiplier (initialized in inputs). 
     _tempLen = _len * lenMultiplier
-    if _tempLen<20 or _tempLen>30
+    if _tempLen < 20 or _tempLen > 30
         _tempLen := 25
     _tempLen
 ```
@@ -80,9 +94,9 @@ f_getSlowLength(_len)
 
 The same underscore prefix used for function parameters should also be used for all local variables. Example:
 ```
-f_getSlowLength(_len)
+f_getSlowLength(_len) =>
     _tempLen = _len * 2
-    if _tempLen<20 or _tempLen>30
+    if _tempLen < 20 or _tempLen > 30
         _tempLen := 25
     _tempLen
 ```
