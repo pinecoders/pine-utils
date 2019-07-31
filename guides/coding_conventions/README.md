@@ -45,6 +45,7 @@ Here is an example of a complete script:
 // MACD indicator, a Gerald Appel concept.
 // Author: PineCoders, v1.0, 2019.07.31
 study("MACD")
+
 // ————— Inputs
 fast = input(12, "Fast Length")
 // Calculates slow length from fast length and normalizes it if needed.
@@ -54,11 +55,13 @@ f_getSlowLength(_len) =>
         _tempLen := 25
     _tempLen
 slow = f_getSlowLength(fast)
+
 // ————— Calculations
 fastMa = ema(close, fast)
 slowMa = ema(close, slow)
 macd = fastMa - slowMa
 signal = sma(macd, 9)
+
 // ————— Plots
 plot(macd, color=color.blue)
 plot(signal, color=color.orange)
