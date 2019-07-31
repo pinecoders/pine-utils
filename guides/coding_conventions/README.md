@@ -63,14 +63,27 @@ Function parameters should be prefixed with the underscore in order to different
 daysInMonth(_year, _month) =>
 ```
 
+### Function Dependencies
+
+When a function requires global scope variables to perform its calculations, these dependencies should be documented in comments. Dependencies are to be avoided whenever possible, as they jeopardize function portability and make code more difficult to read.
+
+```
+f_getSlowLength(_len)
+    // Dependencies: lenMultiplier (initialized in inputs). 
+    _tempLen = _len * lenMultiplier
+    if _tempLen<20 or _tempLen>30
+        _tempLen := 25
+    _templen
+```
+
 ### Local Scope Variable Names
 
 The same underscore prefix used for function parameters should also be used for all local variables. Example:
 ```
-f_capLength(_len)
-    _tempLen = _len * 20
-    if _tempLen<200 or _tempLen>300
-        _tempLen := 200
+f_getSlowLength(_len)
+    _tempLen = _len * 2
+    if _tempLen<20 or _tempLen>30
+        _tempLen := 25
     _templen
 ```
 ```
