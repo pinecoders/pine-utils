@@ -19,7 +19,7 @@ greenCandle = close>open
 ```
 
 ## How do I make an alert available from my indicator?
-See the User Manual page on [`alertcondition()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Alert_conditions.html)
+See the User Manual page on [`alertcondition()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Alert_conditions.html). Code to create an alert condition looks like:
 ```
 triggerCondition = close>close[1]
 alertcondition(triggerCondition, title="Create Alert dialog box name", message="Text sent with alert.")
