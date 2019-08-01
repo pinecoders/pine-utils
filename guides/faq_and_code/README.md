@@ -21,6 +21,11 @@ The `close` variable holds both the price at the close of historical bars and th
 ```
 greenCandle = close > open
 ```
+Once you have defined the `greenCandle` variable, if you wanted a boolean variable to be `true` when the 3 last candles were green ones, you could write:
+```
+threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
+```
+
 
 ## 2. Indicators
 
