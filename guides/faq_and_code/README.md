@@ -25,7 +25,7 @@ Once you have defined the `greenCandle` variable, if you wanted a boolean variab
 ```
 threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ```
-Note that the variable name `3GreenCandles` is not legal in Pine as it begins with a digit.
+Note that the variable name `3GreenCandles` would have caused a compilation error. It is not legal in Pine as it begins with a digit.
 
 ## Indicators
 
