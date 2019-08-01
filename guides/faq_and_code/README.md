@@ -19,7 +19,7 @@ The `close` variable holds both the price at the close of historical bars and th
 
 ### What’s the code for a green candle?
 ```
-greenCandle = close>open
+greenCandle = close > open
 ```
 
 ## 2. Indicators
@@ -30,8 +30,8 @@ greenCandle = close>open
 ### How do I make an alert available from my indicator?
 See the User Manual page on [`alertcondition()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Alert_conditions.html). Code to create an alert condition looks like:
 ```
-triggerCondition = close>close[1]
-alertcondition(triggerCondition, title="Create Alert dialog box name", message="Text sent with alert.")
+triggerCondition = close > close[1]
+alertcondition(triggerCondition, title = "Create Alert dialog box name", message = "Text sent with alert.")
 ```
 When you need to create multiple alerts you can repeat the method above for every alert you want your indicator to generate, but you can also use the method shown in [this indicator](https://www.tradingview.com/script/8AUuFonD-5-MAs-w-alerts-LucF/). Here, all the different alert conditions are bunched up in one `alertcondition()` statement. In this case, you must provide the means for users to first select which conditions will trigger the alert in the *Inputs* dialog box. When all the required conditions are selected, the user creates an alert using the only alert this indicator makes available, but since TradingView remembers the state of the *Inputs* when creating an alert, only the selected conditions will trigger the alert once it’s created, even if *Inputs* selections are modified by the user after the alert is created.
 
