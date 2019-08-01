@@ -9,6 +9,8 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 ### Table of Contents
 
 - [Built-in variables](#built-in-variables)
+- [Built-in functions](#built-in-functions)
+- [Plotting](#plotting)
 - [Indicators (a.k.a. studies)](#indicators)
 - [Strategies](#strategies)
 - [Alerts](#alerts)
@@ -27,9 +29,28 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ```
 Note that the variable name `3GreenCandles` would have caused a compilation error. It is not legal in Pine as it begins with a digit.
 
+
+
+## BUILT-IN FUNCTIONS
+
+
+
+## PLOTTING
+
+
+
+### Can I plot diagonals between two points on the chart?
+Yes, using the [`line.new()`](https://www.tradingview.com/pine-script-reference/v4/#fun_line{dot}new) function available in v4.
+
+
+
 ## INDICATORS
 
+
+
 ## STRATEGIES
+
+
 
 ## ALERTS
 ### How do I make an alert available from my indicator?
