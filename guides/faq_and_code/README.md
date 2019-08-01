@@ -28,6 +28,10 @@ greenCandle = close > open
 
 ## 4. Alerts
 ### How do I make an alert available from my indicator?
+Two steps are required:
+1. Insert an `alertcondition()` call in an indicator script.
+2. Create an alert from the TV Web user interface (ALT-A) and choose the script's alert condition.
+
 See the User Manual page on [`alertcondition()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Alert_conditions.html). Code to create an alert condition looks like:
 ```
 triggerCondition = close > close[1]
