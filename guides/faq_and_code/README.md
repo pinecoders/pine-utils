@@ -79,7 +79,7 @@ You can then use the result of `TradeDateIsAllowed()` to confirm your entries us
 ```
 EnterLong = GoLong and TradeDateIsAllowed()
 ```
-> Note that with this code snippet allows date filtering to be enabled/disabled using a checkbox. This way, you don't have to reset dates when filtering is no longer needed; just uncheck the box.
+> Note that with this code snippet, date filtering can be enabled/disabled using a checkbox. This way you don't have to reset dates when filtering is no longer needed; just uncheck the box.
 
 
 
