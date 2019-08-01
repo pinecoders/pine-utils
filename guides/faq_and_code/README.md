@@ -13,15 +13,16 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 1. [Strategies](#strategies)
 1. [Alerts](#alerts)
 
-## 1. Built-in variables
-### What is the variable name for the current price? 
+1. Built-in variables
     1. What is the variable name for the current price? 
 The `close` variable holds both the price at the close of historical bars and the current price when code is running on the realtime bar.
 
-### What’s the code for a green candle?
+    1. What’s the code for a green candle?
 ```
 greenCandle = close>open
 ```
+
+## 1. Indicators
 
 ### How do I make an alert available from my indicator?
 See the User Manual page on [`alertcondition()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Alert_conditions.html). Code to create an alert condition looks like:
