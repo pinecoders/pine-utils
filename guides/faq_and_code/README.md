@@ -14,8 +14,13 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 - [Indicators (a.k.a. studies)](#indicators)
 - [Strategies](#strategies)
 - [Alerts](#alerts)
+- [Techniques](#techniques)
+
 
 ## BUILT-IN VARIABLES
+
+
+
 ### What is the variable name for the current price? 
 The `close` variable holds both the price at the close of historical bars and the current price when an **indicator** is running on the realtime bar. If the script is a **strategy** running on the realtime bar, by default it runs only at the bar's close. If the `calc_on_every_tick` parameter of the `strategy()` declaration statement is set to `true`, the strategy will behave as an indicator and run on every price change of the realtime bar.
 
@@ -48,11 +53,19 @@ Yes, using the [`line.new()`](https://www.tradingview.com/pine-script-reference/
 
 
 
+### Can I create an indicator that plots like the built-in Volume or Volume Profile indicators?
+No.
+
+
+
 ## STRATEGIES
 
 
 
 ## ALERTS
+
+
+
 ### How do I make an alert available from my indicator?
 Two steps are required:
 1. Insert an `alertcondition()` call in an indicator script.
@@ -79,3 +92,15 @@ When TradingView creates an alert, it saves a snapshot of the environment that w
 You need to create a separate alert for each symbol. There is currently no way to create an alert for all the symbols in a watchlist or for the Screener.
 
 If one of the generic indicators supplied with the Screener suits your needs and your symbols are tagged with a color label, you can create an alert on those markets from within the Screener.
+
+
+
+## TECHNIQUES
+
+
+
+### How do I save a value or state for use later?
+Backtest Rookies has a [blog post](https://backtest-rookies.com/2018/11/23/tradingview-save-a-variable-store-a-value-for-later/) on the subject.
+Pine Example: [Holding a state in a variable](https://www.tradingview.com/script/llcoIPKG-Pine-Example-Holding-a-state-in-a-variable/) by vitvlkv.
+
+
