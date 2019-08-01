@@ -13,7 +13,7 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 - [Strategies](#strategies)
 - [Alerts](#alerts)
 
-## Built-in variables
+## BUILT-IN VARIABLES
 ### What is the variable name for the current price? 
 The `close` variable holds both the price at the close of historical bars and the current price when an **indicator** is running on the realtime bar. If the script is a **strategy** running on the realtime bar, by default it runs only at the bar's close. If the `calc_on_every_tick` parameter of the `strategy()` declaration statement is set to `true`, the strategy will behave as an indicator and run on every price change of the realtime bar.
 
