@@ -62,6 +62,27 @@ No.
 
 
 
+### How do I implement date range filtering in strategies?
+```
+DateFilter = input(false, "═════════════ Date Range Filtering")
+FromYear = input(1900, "From Year", minval=1900)
+FromMonth = input(1, "From Month", minval=1, maxval=12)
+FromDay = input(1, "From Day", minval=1, maxval=31)
+ToYear = input(2999, "To Year", minval=1900)
+ToMonth = input(1, "To Month", minval=1, maxval=12)
+ToDay = input(1, "To Day", minval=1, maxval=31)
+FromDate = timestamp(FromYear, FromMonth, FromDay, 00, 00)
+ToDate = timestamp(ToYear, ToMonth, ToDay, 23, 59)
+TradeDateIsAllowed() => DateFilter? (time >= FromDate and time <= ToDate) : true
+```
+You can then use the result of `TradeDateIsAllowed()` to confirm your entries using something like this:
+```
+EnterLong = GoLong and TradeDateIsAllowed()
+```
+> Note that with this code snippet allows date filtering to be enabled/disabled using a checkbox. This way, you don't have to reset dates when filtering is no longer needed; just uncheck the box.
+
+
+
 ## ALERTS
 
 
@@ -99,7 +120,7 @@ If one of the generic indicators supplied with the Screener suits your needs and
 
 
 
-### How do I save a value or state for use later?
+### How do I save a value or state for later use?
 Backtest Rookies has a [blog post](https://backtest-rookies.com/2018/11/23/tradingview-save-a-variable-store-a-value-for-later/) on the subject.
 Pine Example: [Holding a state in a variable](https://www.tradingview.com/script/llcoIPKG-Pine-Example-Holding-a-state-in-a-variable/) by vitvlkv.
 
