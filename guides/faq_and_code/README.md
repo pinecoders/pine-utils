@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This is a compendium of frequently asked questions on Pine. Answers are short and often come with examples of code or links where relevant information can be found.
+This is a compendium of frequently asked questions on Pine. Answers often give code examples or link to the best sources on the subject.
 
 ### Table of Contents
 
