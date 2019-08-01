@@ -17,7 +17,7 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 ### What is the variable name for the current price? 
 The `close` variable holds both the price at the close of historical bars and the current price when code is running on the realtime bar.
 
-### What’s the code for a green candle?
+### What is the code for a green candle?
 ```
 greenCandle = close > open
 ```
