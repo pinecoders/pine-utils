@@ -8,12 +8,12 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 
 ### Table of Contents
 
-1. [Built-in variables](#built-in-variables)
-1. [Indicators (a.k.a. studies)](#indicators)
-1. [Strategies](#strategies)
-1. [Alerts](#alerts)
+- [Built-in variables](#built-in-variables)
+- [Indicators (a.k.a. studies)](#indicators)
+- [Strategies](#strategies)
+- [Alerts](#alerts)
 
-## 1. Built-in variables
+## Built-in variables
 ### What is the variable name for the current price? 
 The `close` variable holds both the price at the close of historical bars and the current price when an **indicator** is running on the realtime bar. If the script is a **strategy** running on the realtime bar, by default it runs only at the bar's close. If the `calc_on_every_tick` parameter of the `strategy()` declaration statement is set to `true`, the strategy will behave as an indicator and run on every price change of the realtime bar.
 
@@ -27,11 +27,11 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ```
 Note that the variable name `3GreenCandles` is not legal in Pine as it begins with a digit.
 
-## 2. Indicators
+## Indicators
 
-## 3. Strategies
+## Strategies
 
-## 4. Alerts
+## Alerts
 ### How do I make an alert available from my indicator?
 Two steps are required:
 1. Insert an `alertcondition()` call in an indicator script.
