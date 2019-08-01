@@ -73,7 +73,7 @@ When TradingView creates an alert, it saves a snapshot of the environment that w
 - State of the script's *Inputs* selections,
 - Current version of the script. Subsequent updates to the script’s code will not affect the alerts created with prior versions.
 
-Note that while alert condition code will compile in strategy scripts, they are only functional in studies.
+> Note that while alert condition code will compile in strategy scripts, they are only functional in studies.
 
 ### I have a custom script that generates alerts. How do I run it on many symbols?
 You need to create a separate alert for each symbol. There is currently no way to create an alert for all the symbols in a watchlist or for the Screener.
