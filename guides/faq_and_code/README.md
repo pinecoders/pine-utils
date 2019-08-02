@@ -17,7 +17,7 @@ This is a compendium of frequently asked questions on Pine. Answers often give c
 - [Techniques](#techniques)
 
 
-## BUILT-IN VARIABLES
+<br><br>## BUILT-IN VARIABLES
 
 
 
@@ -36,7 +36,7 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 
 
 
-## BUILT-IN FUNCTIONS
+<br><br>## BUILT-IN FUNCTIONS
 
 
 ### Why do I get an error message when using highest() or lowest()?
@@ -44,7 +44,7 @@ Most probably because you are trying to use a series instead of an integer as th
 
 
 
-## PLOTTING
+<br><br>## PLOTTING
 
 
 
@@ -78,7 +78,7 @@ If your indicator was already in a Pane before applying this change, you will ne
 
 
 
-## INDICATORS
+<br><br>## INDICATORS
 
 
 
@@ -101,7 +101,7 @@ No. TradingView uses special code for these that is not available to standard Pi
 See how our [Signal for Backtesting-Trading Engine](https://www.tradingview.com/script/y4CvTwRo-Signal-for-Backtesting-Trading-Engine-PineCoders/) can be integrated as an input to our [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/).
 
 
-## STRATEGIES
+<br><br>## STRATEGIES
 
 
 
@@ -137,7 +137,7 @@ The PineCoders [Backtesting-Trading Engine](https://www.tradingview.com/script/d
 
 
 
-## ALERTS
+<br><br>## ALERTS
 
 
 
@@ -170,7 +170,7 @@ If one of the generic indicators supplied with the Screener suits your needs and
 
 
 
-## TECHNIQUES
+<br><br>## TECHNIQUES
 
 
 
