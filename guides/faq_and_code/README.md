@@ -125,6 +125,13 @@ No. TradingView uses special code for these that is not available to standard Pi
 ### How can I use one script's output as an input into another?
 See how our [Signal for Backtesting-Trading Engine](https://www.tradingview.com/script/y4CvTwRo-Signal-for-Backtesting-Trading-Engine-PineCoders/) can be integrated as an input to our [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/).
 
+### Is it possible to export indicator data to a file?
+No. The only way for now is through screen scraping.
+
+### Can my script place something on the chart when it is running from a pane?
+The only thing that can be changed on the chart from within a pane is the color of the bars. See the [`barcolor()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Barcoloring_a_series_with_barcolor.html) function.
+
+
 
 <br><br>
 ## STRATEGIES
