@@ -52,8 +52,8 @@ Most probably because you are trying to use a series instead of an integer as th
 
 
 ### What's the difference between `==`, `=` and `:=`?
-`==` is used to test for true/false conditions.
-`=` is used to declare and initialize variables.
+`==` is used to test for true/false conditions.<br>
+`=` is used to declare and initialize variables.<br>
 `:=` is used to assign values to variables after initialization, transforming them into *mutable variables*.
 ```
 //@version=3
