@@ -10,6 +10,7 @@ This is a compendium of frequently asked questions on Pine. Answers often give c
 
 - [Built-in variables](#built-in-variables)
 - [Built-in functions](#built-in-functions)
+- [Operators](#operators)
 - [Plotting](#plotting)
 - [Indicators (a.k.a. studies)](#indicators)
 - [Strategies](#strategies)
@@ -44,6 +45,26 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ### Why do I get an error message when using highest() or lowest()?
 Most probably because you are trying to use a series instead of an integer as the second parameter (the length). Either use an integer or use the RicardoSantos replacements [here](https://www.tradingview.com/script/32ohT5SQ-Function-Highest-Lowest/). If you don't know Ricardo, take the time to look at his indicators while you're there. Ricardo is among the most prolific and ingenious Pinescripters out there.
 
+
+<br><br>
+## OPERATORS
+
+
+
+### What's the difference between `==`, `=` and `:=`?
+`==` is used to test for true/false conditions.
+`=` is used to declare and initialize variables.
+`:=` is used to assign values to variables after initialization, transforming them into *mutable variables*.
+```
+//@version=3
+study("")
+a = 0
+b = 1
+plot(a == 0 ? 1 : 2)
+plot(b == 0 ? 3 : 4, color = orange)
+a := 2
+plot(a == 0 ? 1 : 2, color = aqua)
+```
 
 
 <br><br>
