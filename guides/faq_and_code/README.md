@@ -56,6 +56,22 @@ These are examples of three different techniques used to determine and draw supp
 - [Auto-Support v 0.2 by jamc](https://www.tradingview.com/script/hBrQx1tG-Auto-Support-v-0-2/)
 - [S/R Barry by likebike](https://www.tradingview.com/script/EHqtQi2g-S-R-Barry/)
 
+### How many plots, security() calls, variables or lines of code can I use?
+The limit for plots is 64. Note than one plot statement can use up more than one allowed plot, depending on how it is structured.
+The limit for `security()` calls is 40.
+The limit for variables is 1000.
+We do not know of a limit to the number of lines in a script. There is, however a limit of 50K compiled tokens, but they don't correspond to code lines.
+
+### How can I use colors in my indicator plots?
+See [Working with colours](https://kodify.net/tradingview/colours/) by kodify.
+
+### How do I make my indicator plot over the chart?
+Use overlay=true in `strategy()` or `study()` declaration statement, e.g.,:
+```
+study("My Script", overlay=true)
+```
+If your indicator was already in a Pane before applying this change, you will need to use Add to Chart again for the change to become active.
+
 
 
 ## INDICATORS
