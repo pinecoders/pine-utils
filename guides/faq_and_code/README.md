@@ -131,6 +131,12 @@ No. The only way for now is through screen scraping.
 ### Can my script place something on the chart when it is running from a pane?
 The only thing that can be changed on the chart from within a pane is the color of the bars. See the [`barcolor()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Barcoloring_a_series_with_barcolor.html) function.
 
+### Can I merge 2 or more indicators into one?
+Sure, but start by looking at the scale each one is using. If you're thinking of merging a moving average indicator designed to plot on top of candles and in relation to them, you are going to have problems if you also want to include and indicator showing volume bars in the same script because their values are not on the same scale.
+
+Once you've made sure your scales will be compatible (or you have devised a way of normalizing/re-scaling them), it's a matter of gathering the code from all indicators into one script and removing any variable name collisions so each indicator's calculations retain their independence and integrity.
+
+> Note that if the indicators you've merged are CPU intensive, you may run into runtime limitations when executing the compound script.
 
 
 <br><br>
