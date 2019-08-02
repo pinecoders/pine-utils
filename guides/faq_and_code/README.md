@@ -47,6 +47,15 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ### Can I plot diagonals between two points on the chart?
 Yes, using the [`line.new()`](https://www.tradingview.com/pine-script-reference/v4/#fun_line{dot}new) function available in v4.
 
+### How do I plot a support line?
+To plot a continuous line in Pine, you need to either:
+1. Look back into elapsed bars to find an occurrence that will return the same value over consecutive bars so you can plot it, or
+1. Find levels and save them so that you can plot them. In this case your saving mechanism will determine how many levels you can save. 
+These are examples of three different techniques used to determine and draw support lines:
+- [Backtest Rookies](https://backtest-rookies.com/2018/10/05/tradingview-support-and-resistance-indicator/),
+- [Auto-Support v 0.2 by jamc](https://www.tradingview.com/script/hBrQx1tG-Auto-Support-v-0-2/)
+- [S/R Barry by likebike](https://www.tradingview.com/script/EHqtQi2g-S-R-Barry/)
+
 
 
 ## INDICATORS
@@ -80,6 +89,9 @@ You can then use the result of `TradeDateIsAllowed()` to confirm your entries us
 EnterLong = GoLong and TradeDateIsAllowed()
 ```
 > Note that with this code snippet, date filtering can be enabled/disabled using a checkbox. This way you don't have to reset dates when filtering is no longer needed; just uncheck the box.
+
+### How do I write code for a signal with 2 conditions that occur at different times?
+Backtest Rookies has a [blog post](https://backtest-rookies.com/2018/10/26/tradingview-opening-a-window/) on the subject.
 
 
 
