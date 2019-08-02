@@ -39,6 +39,10 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ## BUILT-IN FUNCTIONS
 
 
+### Why do I get an error message when using highest() or lowest()?
+Most probably because you are trying to use a series instead of an integer as the second parameter (the length). Either use an integer or use the RicardoSantos replacements [here](https://www.tradingview.com/script/32ohT5SQ-Function-Highest-Lowest/). If you don't know Ricardo, take the time to look at his indicators while you're there. Ricardo is among the most prolific and ingenious Pinescripters out there.
+
+
 
 ## PLOTTING
 
@@ -66,7 +70,7 @@ We do not know of a limit to the number of lines in a script. There is, however 
 See [Working with colours](https://kodify.net/tradingview/colours/) by kodify.
 
 ### How do I make my indicator plot over the chart?
-Use overlay=true in `strategy()` or `study()` declaration statement, e.g.,:
+Use `overlay=true` in `strategy()` or `study()` declaration statement, e.g.,:
 ```
 study("My Script", overlay=true)
 ```
@@ -81,6 +85,20 @@ If your indicator was already in a Pane before applying this change, you will ne
 ### Can I create an indicator that plots like the built-in Volume or Volume Profile indicators?
 No.
 
+### How do I feed the output of one script to another script?
+Use the following in your code:
+```
+ExternalIndicator = input(close, "External Indicator")
+```
+From the script's *Inputs* you will then be able to select a plot from another indicator if it present on your chart.
+You can use only one such statement in your script. If you use more than one, the other indicator plots will not be visible from the *Inputs* dropdown.
+You cannot use this technique in strategies.
+
+### Can I write a script that plots like the built-in Volume Profile or Volume indicators?
+No. TradingView uses special code for these that is not available to standard Pine scripts.
+
+### How can I use one script's output as an input into another?
+See how our [Signal for Backtesting-Trading Engine](https://www.tradingview.com/script/y4CvTwRo-Signal-for-Backtesting-Trading-Engine-PineCoders/) can be integrated as an input to our [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/).
 
 
 ## STRATEGIES
@@ -108,6 +126,14 @@ EnterLong = GoLong and TradeDateIsAllowed()
 
 ### How do I write code for a signal with 2 conditions that occur at different times?
 Backtest Rookies has a [blog post](https://backtest-rookies.com/2018/10/26/tradingview-opening-a-window/) on the subject.
+
+### How can I save the entry price in a strategy?
+See [How to Plot Entry Price](https://www.tradingview.com/script/bHTnipgY-HOWTO-Plot-Entry-Price/) by vitvlkv
+
+### How do I convert a strategy to a study in order to generate alerts for discretionary trading or a third-party execution app/bot?
+The best way to go about this is to write your strategies in such a way that their behavior depends the least possible on `strategy.*` variables and `strategy.*()` call parameters, because these cannot be converted into an indicator.
+
+The PineCoders [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/) is a framework that allows you to easily convert betweeen strategy and indicator modes because it manages trades using custom Pine code that does not depend on an involved setup of `strategy.*()` call parameters.
 
 
 
