@@ -1,7 +1,7 @@
 ![PineCoders](/images/PineCodersLong.png "PineCoders")
 
 <!-- if you need to give space before text to format tabulation use keys &ensp; &emsp; combination-->
-# Snippets.
+# Snippets
 
 ## Code Snippets for Tradingview Pine Script language:
 Snippets categorized by purpose.
