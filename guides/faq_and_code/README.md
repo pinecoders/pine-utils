@@ -4,12 +4,13 @@
 
 ## Introduction
 
-This is a compendium of frequently asked questions on Pine. Answers are short and often come with examples of code or links where relevant information can be found.
+This is a compendium of frequently asked questions on Pine. Answers often give code examples or link to the best sources on the subject.
 
 ### Table of Contents
 
 - [Built-in variables](#built-in-variables)
 - [Built-in functions](#built-in-functions)
+- [Operators](#operators)
 - [Plotting](#plotting)
 - [Indicators (a.k.a. studies)](#indicators)
 - [Strategies](#strategies)
@@ -17,6 +18,7 @@ This is a compendium of frequently asked questions on Pine. Answers are short an
 - [Techniques](#techniques)
 
 
+<br><br>
 ## BUILT-IN VARIABLES
 
 
@@ -36,10 +38,36 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 
 
 
+<br><br>
 ## BUILT-IN FUNCTIONS
 
 
+### Why do I get an error message when using highest() or lowest()?
+Most probably because you are trying to use a series instead of an integer as the second parameter (the length). Either use an integer or use the RicardoSantos replacements [here](https://www.tradingview.com/script/32ohT5SQ-Function-Highest-Lowest/). If you don't know Ricardo, take the time to look at his indicators while you're there. Ricardo is among the most prolific and ingenious Pinescripters out there.
 
+
+<br><br>
+## OPERATORS
+
+
+
+### What's the difference between `==`, `=` and `:=`?
+`==` is used to test for true/false conditions.<br>
+`=` is used to declare and initialize variables.<br>
+`:=` is used to assign values to variables after initialization, transforming them into *mutable variables*.
+```
+//@version=3
+study("")
+a = 0
+b = 1
+plot(a == 0 ? 1 : 2)
+plot(b == 0 ? 3 : 4, color = orange)
+a := 2
+plot(a == 0 ? 1 : 2, color = aqua)
+```
+
+
+<br><br>
 ## PLOTTING
 
 
@@ -47,8 +75,34 @@ threeGreenCandles = greenCandle and greenCandle[1] and greenCandle[2]
 ### Can I plot diagonals between two points on the chart?
 Yes, using the [`line.new()`](https://www.tradingview.com/pine-script-reference/v4/#fun_line{dot}new) function available in v4.
 
+### How do I plot a support line?
+To plot a continuous line in Pine, you need to either:
+1. Look back into elapsed bars to find an occurrence that will return the same value over consecutive bars so you can plot it, or
+1. Find levels and save them so that you can plot them. In this case your saving mechanism will determine how many levels you can save. 
+These are examples of three different techniques used to determine and draw support lines:
+- [Backtest Rookies](https://backtest-rookies.com/2018/10/05/tradingview-support-and-resistance-indicator/),
+- [Auto-Support v 0.2 by jamc](https://www.tradingview.com/script/hBrQx1tG-Auto-Support-v-0-2/)
+- [S/R Barry by likebike](https://www.tradingview.com/script/EHqtQi2g-S-R-Barry/)
+
+### How many plots, security() calls, variables or lines of code can I use?
+The limit for plots is 64. Note than one plot statement can use up more than one allowed plot, depending on how it is structured.
+The limit for `security()` calls is 40.
+The limit for variables is 1000.
+We do not know of a limit to the number of lines in a script. There is, however a limit of 50K compiled tokens, but they don't correspond to code lines.
+
+### How can I use colors in my indicator plots?
+See [Working with colours](https://kodify.net/tradingview/colours/) by kodify.
+
+### How do I make my indicator plot over the chart?
+Use `overlay=true` in `strategy()` or `study()` declaration statement, e.g.,:
+```
+study("My Script", overlay=true)
+```
+If your indicator was already in a Pane before applying this change, you will need to use Add to Chart again for the change to become active.
 
 
+
+<br><br>
 ## INDICATORS
 
 
@@ -56,8 +110,36 @@ Yes, using the [`line.new()`](https://www.tradingview.com/pine-script-reference/
 ### Can I create an indicator that plots like the built-in Volume or Volume Profile indicators?
 No.
 
+### How do I feed the output of one script to another script?
+Use the following in your code:
+```
+ExternalIndicator = input(close, "External Indicator")
+```
+From the script's *Inputs* you will then be able to select a plot from another indicator if it present on your chart.
+You can use only one such statement in your script. If you use more than one, the other indicator plots will not be visible from the *Inputs* dropdown.
+You cannot use this technique in strategies.
+
+### Can I write a script that plots like the built-in Volume Profile or Volume indicators?
+No. TradingView uses special code for these that is not available to standard Pine scripts.
+
+### How can I use one script's output as an input into another?
+See how our [Signal for Backtesting-Trading Engine](https://www.tradingview.com/script/y4CvTwRo-Signal-for-Backtesting-Trading-Engine-PineCoders/) can be integrated as an input to our [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/).
+
+### Is it possible to export indicator data to a file?
+No. The only way for now is through screen scraping.
+
+### Can my script place something on the chart when it is running from a pane?
+The only thing that can be changed on the chart from within a pane is the color of the bars. See the [`barcolor()`](https://www.tradingview.com/pine-script-docs/en/v4/annotations/Barcoloring_a_series_with_barcolor.html) function.
+
+### Can I merge 2 or more indicators into one?
+Sure, but start by looking at the scale each one is using. If you're thinking of merging a moving average indicator designed to plot on top of candles and in relation to them, you are going to have problems if you also want to include and indicator showing volume bars in the same script because their values are not on the same scale.
+
+Once you've made sure your scales will be compatible (or you have devised a way of normalizing/re-scaling them), it's a matter of gathering the code from all indicators into one script and removing any variable name collisions so each indicator's calculations retain their independence and integrity.
+
+> Note that if the indicators you've merged are CPU intensive, you may run into runtime limitations when executing the compound script.
 
 
+<br><br>
 ## STRATEGIES
 
 
@@ -81,8 +163,20 @@ EnterLong = GoLong and TradeDateIsAllowed()
 ```
 > Note that with this code snippet, date filtering can be enabled/disabled using a checkbox. This way you don't have to reset dates when filtering is no longer needed; just uncheck the box.
 
+### How do I write code for a signal with 2 conditions that occur at different times?
+Backtest Rookies has a [blog post](https://backtest-rookies.com/2018/10/26/tradingview-opening-a-window/) on the subject.
+
+### How can I save the entry price in a strategy?
+See [How to Plot Entry Price](https://www.tradingview.com/script/bHTnipgY-HOWTO-Plot-Entry-Price/) by vitvlkv
+
+### How do I convert a strategy to a study in order to generate alerts for discretionary trading or a third-party execution app/bot?
+The best way to go about this is to write your strategies in such a way that their behavior depends the least possible on `strategy.*` variables and `strategy.*()` call parameters, because these cannot be converted into an indicator.
+
+The PineCoders [Backtesting-Trading Engine](https://www.tradingview.com/script/dYqL95JB-Backtesting-Trading-Engine-PineCoders/) is a framework that allows you to easily convert betweeen strategy and indicator modes because it manages trades using custom Pine code that does not depend on an involved setup of `strategy.*()` call parameters.
 
 
+
+<br><br>
 ## ALERTS
 
 
@@ -116,6 +210,7 @@ If one of the generic indicators supplied with the Screener suits your needs and
 
 
 
+<br><br>
 ## TECHNIQUES
 
 
