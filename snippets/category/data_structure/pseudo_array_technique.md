@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # Pseudo Array prototype - Technique
 
 #### Description:

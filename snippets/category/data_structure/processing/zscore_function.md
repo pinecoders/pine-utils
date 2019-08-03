@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # Standardization Z Score Function
 
 #### Description:

@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # Function to generate random values with bias towards a range within a range
 
 #### Description:

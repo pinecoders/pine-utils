@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # Function to generate random values with weighted bias
 
 #### Description:

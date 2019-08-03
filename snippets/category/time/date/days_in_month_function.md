@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # Function to return the days in a specified month.
 
 #### Description:

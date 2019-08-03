@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # Function to draw a Trapezoid on chart.
 
 #### Description:
