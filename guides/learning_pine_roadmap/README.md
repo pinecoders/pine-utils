@@ -1,4 +1,4 @@
-![logo](../../images/PineCodersLong.png "Pine")
+![logo](/images/PineCodersLong.png "Pine")
 
 # Learning Pine Roadmap
 
