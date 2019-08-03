@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 <!-- if you need to give space before text to format tabulation use keys &ensp; &emsp; combination-->
 # Snippets.
 
