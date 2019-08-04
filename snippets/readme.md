@@ -175,13 +175,13 @@ You can contribute in three ways:
 1. Do everything yourself:
     - Fork the repo.
     - Use the supplied snippet templates to format each of your snippet.
-    - Add them directly to the existing categories or in the `uncategorized` category.
+    - Add snippet to an existing category or in the `uncategorized` category.
     - Issue a PR.
-1. Supply the code through GitHub without formatting your snippets:
+1. Supply the code through GitHub without formatting your snippet:
     - Fork the repo.
     - Add your code in the `uncategorized` category.
     - Issue a PR.
-1. Just send your code in a text file to: pinecoders@gmail.com.
+1. Just send your code in a text file to pinecoders@gmail.com.
 
 We will revise and, if required, edit contributions to ensure they meet our publications standards. We will get in touch with you if we have questions.
 
