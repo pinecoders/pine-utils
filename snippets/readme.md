@@ -172,7 +172,9 @@ First of all, **thank you!** &#128150;&emsp; We hope this repo becomes the de fa
 
 You have three options if you want to contribute:
 
-1. Fork the repo, use the supplied snippet templates to format each of your snippet, add them to the existing categories and issue a PR.
+1. Do everything yourself:
+    - Fork the repo 
+    - use the supplied snippet templates to format each of your snippet, add them to the existing categories and issue a PR.
 1. 
 
 - Authors are recognized in each snippet.
