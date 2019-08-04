@@ -162,7 +162,7 @@ Welcome to the list of categorized Pine Script snippets available in the PineCod
 </details>
 
 
-
+<br>
 ## Instructions for contributors
 
 First of all, thank you. We hope this repo becomes the de facto reference for reusable Pine code, and its contributions like yours that will make this happen.
