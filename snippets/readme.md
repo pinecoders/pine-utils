@@ -7,7 +7,7 @@ Welcome to the list of categorized Pine Script snippets available in the PineCod
 
 **To access a snippet, just click on its name.**
 
-> [Interested in contributing?](#instructions-for-contributors)
+> [Interested in contributing?](#instructions-to-contributors)
 
 ## Snippets by category
 <!--  -->
@@ -166,7 +166,7 @@ Welcome to the list of categorized Pine Script snippets available in the PineCod
 
 <br>
 
-## Instructions for contributors
+## Instructions to contributors
 
 First of all, **thank you!** &#128150;&ensp; We hope this repo becomes the de facto reference for reusable Pine code, and this will only happen with contributions like yours.
 
@@ -185,7 +185,8 @@ You can contribute in three ways:
 
 We will revise and, if required, edit contributions to ensure they meet our publications standards. We will get in touch with you if we have questions.
 
-Note:
+Notes:
 - Authors are recognized in each snippet.
 - No coding conventions are enforced in the repo. It's more important to share the code than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](http://www.pinecoders.com/coding_conventions).
+- Since the repo's code is meant to be used by Pine coders of all skill levels, care should be taken to document assumptions and proper use of your snippets. The example section in each snippet is often the best way to achieve that.
 
