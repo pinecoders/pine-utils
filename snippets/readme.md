@@ -193,4 +193,4 @@ We will revise and, if required, edit contributions to ensure they meet our publ
 - Formatting inside the templates is a mix of [Markdown](https://github.com/adam-p/markdown-here/wiki) and HTML.
 - Version 4 code is preferred. The templates allow for multiple versions of your snippets.
 
-**[Back to top](#snippets)**
+**[Back to top](#pine-script-snippets)**
