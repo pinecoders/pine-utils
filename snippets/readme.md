@@ -181,7 +181,7 @@ You can contribute in three ways:
     - Fork the repo.
     - Add your code in the `uncategorized` category.
     - Issue a PR.
-1. Just send your code in a text file to pinecoders@gmail.com.
+1. If you are not familiar with GitHub, you can just send your code in a text file to pinecoders@gmail.com. You may use the supplied templates if you can.
 
 We will revise and, if required, edit contributions to ensure they meet our publications standards. We will get in touch with you if we have questions.
 
@@ -189,4 +189,5 @@ Notes:
 - Authors are recognized in each snippet.
 - No coding conventions are enforced in the repo. It's more important to share the code than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](http://www.pinecoders.com/coding_conventions).
 - Since the repo's code is meant to be used by Pine coders of all skill levels, care should be taken to document assumptions and proper use of your snippets. The example section in each snippet is often the best way to achieve that.
-
+- Templates are in the `snippets/templates` directory. There is one template for each type of snippet: *function*, *technique* and *variable*.
+- Formatting inside the templates is a mix of Mardown and HTML syntax.
