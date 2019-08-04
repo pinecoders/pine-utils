@@ -173,6 +173,9 @@ We hope this repo becomes the de facto reference for reusable Pine code, and we 
 
 You have three options if you want to contribute:
 
-1. Fork the repo, add your pre-formatted snippets using the supplied templates in the categories already defined and issue a PR.
+1. Fork the repo, use the supplied snippet templates to format each of your snippet, add them to the existing categories and issue a PR.
 1. 
+
+- Authors are recognized in each snippet.
+- No coding conventions are enforced in the repo. It's more important to share the code than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](<http://www.pinecoders.com/coding_conventions "Pine Coding Conventions").
 
