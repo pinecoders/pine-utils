@@ -168,8 +168,7 @@ Welcome to the list of categorized Pine Script snippets available in the PineCod
 
 ## Instructions for contributors
 
-First of all, **thank you!** &#128150; <br>
-We hope this repo becomes the de facto reference for reusable Pine code, and we need contributions like yours for this to happen.
+First of all, **thank you!** &#128150;&emsp; We hope this repo becomes the de facto reference for reusable Pine code, and we need contributions like yours for this to happen.
 
 You have three options if you want to contribute:
 
