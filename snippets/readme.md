@@ -191,3 +191,6 @@ We will revise and, if required, edit contributions to ensure they meet our publ
 - Since the repo's code is meant to be used by Pine coders of all skill levels, care should be taken to document assumptions and proper use of your snippets. The example section in each snippet is often the best way to achieve that.
 - Templates are in the `snippets/templates` directory. There is one template for each type of snippet: *function*, *technique* and *variable*.
 - Formatting inside the templates is a mix of [Markdown](https://github.com/adam-p/markdown-here/wiki) and HTML.
+- Version 4 code is preferred. The templates allow for multiple versions of your snippets.
+
+**[Back to top](#snippets)**
