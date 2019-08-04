@@ -190,4 +190,4 @@ Notes:
 - No coding conventions are enforced in the repo. It's more important to share than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](http://www.pinecoders.com/coding_conventions).
 - Since the repo's code is meant to be used by Pine coders of all skill levels, care should be taken to document assumptions and proper use of your snippets. The example section in each snippet is often the best way to achieve that.
 - Templates are in the `snippets/templates` directory. There is one template for each type of snippet: *function*, *technique* and *variable*.
-- Formatting inside the templates is a mix of Mardown and HTML syntax.
+- Formatting inside the templates is a mix of [Markdown](https://github.com/adam-p/markdown-here/wiki) and HTML.
