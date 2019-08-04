@@ -176,5 +176,5 @@ You have three options if you want to contribute:
 1. 
 
 - Authors are recognized in each snippet.
-- No coding conventions are enforced in the repo. It's more important to share the code than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](<http://www.pinecoders.com/coding_conventions "Pine Coding Conventions").
+- No coding conventions are enforced in the repo. It's more important to share the code than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](<http://www.pinecoders.com/coding_conventions).
 
