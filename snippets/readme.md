@@ -168,9 +168,9 @@ Welcome to the list of categorized Pine Script snippets available in the PineCod
 
 ## Instructions for contributors
 
-First of all, **thank you!** &#128150;&ensp; We hope this repo becomes the de facto reference for reusable Pine code, and we need contributions like yours for this to happen.
+First of all, **thank you!** &#128150;&ensp; We hope this repo becomes the de facto reference for reusable Pine code, and this will only happen with contributions like yours.
 
-You have three options if you want to contribute:
+You can contribute in three ways:
 
 1. Do everything yourself:
     - Fork the repo.
@@ -183,6 +183,9 @@ You have three options if you want to contribute:
     - Issue a PR.
 1. Just send your code in a text file to: pinecoders@gmail.com.
 
+We will revise and, if required, edit contributions to ensure they meet our publications standards. We will get in touch with you if we have questions.
+
+Note:
 - Authors are recognized in each snippet.
 - No coding conventions are enforced in the repo. It's more important to share the code than to have uniform code. If you are interested in following a standard, use the [PineCoders Coding Conventions](http://www.pinecoders.com/coding_conventions).
 
