@@ -3,7 +3,11 @@
 <!-- if you need to give space before text to format tabulation use keys &ensp; &emsp; combination-->
 # Pine Script Snippets 
 
-## Available snippets by category
+This is the list of categorized Pine Script snippets available in the PineCoders repo. To access a snippet, just click on its name. The snippets are divided in thematic categories. A snippet can be either a function, a piece of code implementing a particular technique, or variable definitions.
+
+If you are interested in contributing Pine code to the repo, please read the instructions [here](#instructions-for-contributors).
+
+## Snippets by category
 <!--  -->
 
 <!-- ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••• -->
@@ -156,3 +160,15 @@
 </details>
 
 </details>
+
+
+
+## Instructions for contributors
+
+First of all, thank you. We hope this repo becomes the de facto reference for reusable Pine code, and its contributions like yours that will make this happen.
+
+You have three options if you want to contribute:
+
+1. Fork the repo, add your pre-formatted snippets using the supplied templates in the categories already defined and issue a PR.
+1. 
+
