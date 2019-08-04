@@ -3,7 +3,9 @@
 <!-- if you need to give space before text to format tabulation use keys &ensp; &emsp; combination-->
 # Pine Script Snippets 
 
-Welcome to the list of categorized Pine Script snippets available in the PineCoders repo. The snippets are divided in thematic categories. A snippet can be either a function, a piece of code implementing a particular technique, or variable definitions. **To access a snippet, just click on its name.**
+Welcome to the list of categorized Pine Script snippets available in the PineCoders repo. The snippets are divided in thematic categories. A snippet can be either a function, a piece of code implementing a particular technique, or variable definitions.
+
+**To access a snippet, just click on its name.**
 
 > If you are interested in contributing Pine code to the repo, please read the instructions [here](#instructions-for-contributors).
 
