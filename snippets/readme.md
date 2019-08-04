@@ -7,7 +7,7 @@ Welcome to the list of categorized Pine Script snippets available in the PineCod
 
 **To access a snippet, just click on its name.**
 
-> If you are interested in contributing Pine code to the repo, please read the instructions [here](#instructions-for-contributors).
+> Interested in contributing Pine code to the repo? [Please read this](#instructions-for-contributors).
 
 ## Snippets by category
 <!--  -->
