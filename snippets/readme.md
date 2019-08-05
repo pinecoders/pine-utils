@@ -176,11 +176,11 @@ You can contribute in three ways:
     - Fork the repo.
     - Use the supplied snippet templates to format each of your snippet.
     - Add snippet to an existing category or in the `uncategorized` category.
-    - Issue a PR.
+    - Issue a pull request.
 1. Supply the code through GitHub without formatting your snippet:
     - Fork the repo.
     - Add your code in the `uncategorized` category.
-    - Issue a PR.
+    - Issue a  pull request.
 1. If you are not familiar with GitHub, you can just send your code in a text file to pinecoders@gmail.com. You can use the supplied templates to format your code, but it's not mandatory.
 
 We will revise and, if required, edit contributions to ensure they meet our publications standards. We will get in touch with you if we have questions.
