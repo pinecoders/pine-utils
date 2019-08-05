@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 ## Instructions to contributors
 
 First of all, **thank you!** &#128150;&ensp; We hope this repo becomes the de facto reference for reusable Pine code, and this will only happen with contributions like yours.
