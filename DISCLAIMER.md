@@ -1,3 +1,5 @@
+![PineCoders](/images/PineCodersLong.png "PineCoders")
+
 # DISCLAIMER
 
 All information and code provided in this repository must be used at your own risk.
