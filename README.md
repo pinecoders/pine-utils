@@ -3,4 +3,4 @@
 # pine-utils
 Reusable code snippets and tricks & tips to help Pine Script developers.
 
-See our [web site](http://pinecoders.com) for access to our guides and Pine FAQ & Code.
+Our [web site](http://pinecoders.com) contains links to our [Coding Conventions](http://www.pinecoders.com/coding_conventions/), [Pine FAQ & Code](http://www.pinecoders.com/faq_and_code/) and [Pine Resources](http://www.pinecoders.com/resources/).
