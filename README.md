@@ -7,4 +7,4 @@ The [PineCoders web site](http://pinecoders.com) contains links to our [Coding C
 
 #### &#11142; [Interested in contributing?](/snippets/#instructions-to-contributors)
 
-> Thanks to Alex Orekhov (a.k.a. [everget](https://www.tradingview.com/u/everget/) and [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/) for setting up the PineCoders repo AND contributing their precious code.
+> Thanks to Alex Orekhov (a.k.a. [everget](https://www.tradingview.com/u/everget/)) and [Ricardo Santos](https://www.tradingview.com/u/RicardoSantos/) for setting up the PineCoders repo AND contributing their precious code.
