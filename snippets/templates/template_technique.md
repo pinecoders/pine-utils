@@ -1,6 +1,6 @@
 ![PineCoders](/images/PineCodersLong.png "PineCoders")
 
-# Template Snippet Name
+# Your Snippet Name
 
 #### Description:
 
