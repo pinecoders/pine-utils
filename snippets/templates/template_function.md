@@ -1,6 +1,6 @@
 ![PineCoders](/images/PineCodersLong.png "PineCoders")
 
-# Template Snippet Name
+# Your Snippet Name
 
 #### Description:
 
@@ -27,7 +27,6 @@ f_phi() =>
   <!-- leave a blank line after summary -->
   <summary>@version=2:</summary>
 
-<!--  -->
 <!-- code goes between the backticks: -->
 ```javascript
 f_phi() =>
@@ -43,9 +42,8 @@ Place description of the example here.<br/>
 
 <details open>
   <!-- leave a blank line after summary -->
-  <!--<summary>Code:</summary> -->
+  <summary>&nbsp;</summary>
 
-<!--  -->
 <!-- code goes between the backticks: -->
 ```javascript
 //@version=4
